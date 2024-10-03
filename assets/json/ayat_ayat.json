@@ -1,0 +1,460 @@
+{
+    "al_fatihah": [
+        {
+            "id": 0,
+            "surah": "Al-Fatihah",
+            "ayat_arabic": [
+                "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝١",
+                "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ۝٢",
+                "الرَّحْمٰنِ الرَّحِيْمِۙ ۝٣",
+                "مٰلِكِ يَوْمِ الدِّيْنِۗ ۝٤",
+                "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ ۝٥",
+                "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ۝٦",
+                "صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَࣖ ۝٧"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_fatihah_1.mp3",
+                "sounds/materi_ayat/al_fatihah_2.mp3",
+                "sounds/materi_ayat/al_fatihah_3.mp3",
+                "sounds/materi_ayat/al_fatihah_4.mp3",
+                "sounds/materi_ayat/al_fatihah_5.mp3",
+                "sounds/materi_ayat/al_fatihah_6.mp3",
+                "sounds/materi_ayat/al_fatihah_7.mp3"
+            ],
+            "ayat_latin": [
+                "Bismillaahirrahmaanirrahiim",
+                "al-ḫamdu lillâhi rabbil-'âlamîn",
+                "ar-raḫmânir-raḫîm",
+                "mâliki yaumid-dîn",
+                "iyyâka na'budu wa iyyâka nasta'în",
+                "ihdinash-shirâthal-mustaqîm",
+                "shirâthalladzîna an'amta 'alaihim ghairil-maghdlûbi 'alaihim wa ladl-dlâllîn"
+            ],
+            "arti": [
+                "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+                "Segala puji bagi Allah, Tuhan semesta alam",
+                "Yang Maha Pengasih lagi Maha Penyayang,",
+                "Pemilik hari Pembalasan.",
+                "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan.",
+                "Bimbinglah kami ke jalan yang lurus,",
+                "(yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) orang-orang yang sesat."
+            ]
+        }
+    ],
+    "ad_dhuha": [
+        {
+            "id": 1,
+            "surah": "Ad-Dhuha",
+            "ayat_arabic": [
+                "وَالضُّحٰىۙ ۝١",
+                "وَالَّيْلِ اِذَا سَجٰىۙ ۝٢",
+                "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلٰىۗ ۝٣",
+                "وَلَلْاٰخِرَةُ خَيْرٌ لَّكَ مِنَ الْاُوْلٰىۗ ۝٤",
+                "وَلَسَوْفَ يُعْطِيْكَ رَبُّكَ فَتَرْضٰىۗ ۝٥",
+                "اَلَمْ يَجِدْكَ يَتِيْمًا فَاٰوٰىۖ ۝٦",
+                "وَوَجَدَكَ ضَاۤلًّا فَهَدٰىۖ ۝٧",
+                "وَوَجَدَكَ عَاۤىِٕلًا فَاَغْنٰىۗ ۝٨",
+                "فَاَمَّا الْيَتِيْمَ فَلَا تَقْهَرْۗ ۝٩",
+                "وَاَمَّا السَّاۤىِٕلَ فَلَا تَنْهَرْ ۝١٠",
+                "وَاَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْࣖ ۝١١"
+            ],
+            "sound": [
+                "sounds/materi_ayat/ad_dhuha_1.mp3",
+                "sounds/materi_ayat/ad_dhuha_2.mp3",
+                "sounds/materi_ayat/ad_dhuha_3.mp3",
+                "sounds/materi_ayat/ad_dhuha_4.mp3",
+                "sounds/materi_ayat/ad_dhuha_5.mp3",
+                "sounds/materi_ayat/ad_dhuha_6.mp3",
+                "sounds/materi_ayat/ad_dhuha_7.mp3",
+                "sounds/materi_ayat/ad_dhuha_8.mp3",
+                "sounds/materi_ayat/ad_dhuha_9.mp3",
+                "sounds/materi_ayat/ad_dhuha_10.mp3",
+                "sounds/materi_ayat/ad_dhuha_11.mp3"
+            ],
+            "ayat_latin": [
+                "wadl-dluḫâ",
+                "wal-laili idzâ sajâ",
+                "mâ wadda'aka rabbuka wa mâ qalâ",
+                "wa lal-âkhiratu khairul laka minal-ûlâ",
+                "wa lasaufa yu'thîka rabbuka fa tardlâ",
+                "a lam yajidka yatîman fa âwâ",
+                "wa wajadaka dlâllan fa hadâ",
+                "wa wajadaka ‘â'ilan fa aghnâ",
+                "fa ammal-yatîma fa lâ taq-har",
+                "wa ammas-sâ'ila fa lâ tan-har",
+                "wa ammâ bini'mati rabbika fa ḫaddits"
+            ],
+            "arti": [
+                "Demi waktu duha",
+                "dan demi waktu malam apabila telah sunyi,",
+                "Tuhanmu (Nabi Muhammad) tidak meninggalkan dan tidak (pula) membencimu.",
+                "Sungguh, akhirat itu lebih baik bagimu daripada yang permulaan (dunia).",
+                "Sungguh, kelak (di akhirat nanti) Tuhanmu pasti memberikan karunia-Nya kepadamu sehingga engkau rida.",
+                "Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(-mu);",
+                "mendapatimu sebagai seorang yang tidak tahu (tentang syariat), lalu Dia memberimu petunjuk (wahyu);",
+                "dan mendapatimu sebagai seorang yang fakir, lalu Dia memberimu kecukupan?",
+                "Terhadap anak yatim, janganlah engkau berlaku sewenang-wenang.",
+                "Terhadap orang yang meminta-minta, janganlah engkau menghardik.",
+                "Terhadap nikmat Tuhanmu, nyatakanlah (dengan bersyukur)."
+            ]
+        }
+    ],
+    "at_tin": [
+        {
+            "id": 2,
+            "surah": "At-Tin",
+            "ayat_arabic": [
+                "وَالتِّيْنِ وَالزَّيْتُوْنِۙ ۝١",
+                "وَطُوْرِ سِيْنِيْنَۙ ۝٢",
+                "وَهٰذَا الْبَلَدِ الْاَمِيْنِۙ ۝٣",
+                "لَقَدْ خَلَقْنَا الْاِنْسَانَ فِيْٓ اَحْسَنِ تَقْوِيْمٍۖ ۝٤",
+                "ثُمَّ رَدَدْنٰهُ اَسْفَلَ سٰفِلِيْنَۙ ۝٥",
+                "اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ فَلَهُمْ اَجْرٌ غَيْرُ مَمْنُوْنٍۗ ۝٦",
+                "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّيْنِۗ ۝٧",
+                "اَلَيْسَ اللّٰهُ بِاَحْكَمِ الْحٰكِمِيْنَࣖ ۝٨"
+            ],
+            "sound": [
+                "sounds/materi_ayat/at_tin_1.mp3",
+                "sounds/materi_ayat/at_tin_2.mp3",
+                "sounds/materi_ayat/at_tin_3.mp3",
+                "sounds/materi_ayat/at_tin_4.mp3",
+                "sounds/materi_ayat/at_tin_5.mp3",
+                "sounds/materi_ayat/at_tin_6.mp3",
+                "sounds/materi_ayat/at_tin_7.mp3",
+                "sounds/materi_ayat/at_tin_8.mp3"
+            ],
+            "ayat_latin": [
+                "wat-tîni waz-zaitûn",
+                "wa thûri sînîn",
+                "wa hâdzal-baladil-amîn",
+                "laqad khalaqnal-insâna fî aḫsani taqwîm",
+                "tsumma radadnâhu asfala sâfilîn",
+                "illalladzîna âmanû wa 'amilush-shâliḫâti fa lahum ajrun ghairu mamnûn",
+                "fa mâ yukadzdzibuka ba'du bid-dîn",
+                "a laisallâhu bi'aḫkamil-ḫâkimîn"
+            ],
+            "arti": [
+                "Demi (buah) tin dan (buah) zaitun,",
+                "demi gunung Sinai,",
+                "dan demi negeri (Makkah) yang aman ini,",
+                "sungguh, Kami benar-benar telah menciptakan manusia dalam bentuk yang sebaik-baiknya.",
+                "Kemudian, kami kembalikan dia ke tempat yang serendah-rendahnya,",
+                "kecuali orang-orang yang beriman dan mengerjakan kebajikan. Maka, mereka akan mendapat pahala yang tidak putus-putusnya.",
+                "Maka, apa alasanmu (wahai orang kafir) mendustakan hari Pembalasan setelah (adanya bukti-bukti) itu?",
+                "Bukankah Allah hakim yang paling adil?"
+            ]
+        }
+    ],
+    "al_alaq": [
+        {
+            "id": 3,
+            "surah": "Al-'Alaq'",
+            "ayat_arabic": [
+                "اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِيْ خَلَقَۚ ۝١",
+                "خَلَقَ الْاِنْسَانَ مِنْ عَلَقٍۚ ۝٢",
+                "اِقْرَأْ وَرَبُّكَ الْاَكْرَمُۙ ۝٣",
+                "الَّذِيْ عَلَّمَ بِالْقَلَمِۙ ۝٤",
+                "عَلَّمَ الْاِنْسَانَ مَا لَمْ يَعْلَمْۗ ۝٥",
+                "كَلَّآ اِنَّ الْاِنْسَانَ لَيَطْغٰىٓۙ ۝٦",
+                "اَنْ رَّاٰهُ اسْتَغْنٰىۗ ۝٧",
+                "اِنَّ اِلٰى رَبِّكَ الرُّجْعٰىۗ ۝٨",
+                "اَرَاَيْتَ الَّذِيْ يَنْهٰىۙ ۝٩",
+                "عَبْدًا اِذَا صَلّٰىۗ ۝١٠",
+                "اَرَاَيْتَ اِنْ كَانَ عَلَى الْهُدٰىٓۙ ۝١١",
+                "اَوْ اَمَرَ بِالتَّقْوٰىۗ ۝١٢",
+                "اَرَاَيْتَ اِنْ كَذَّبَ وَتَوَلّٰىۗ ۝١٣",
+                "اَلَمْ يَعْلَمْ بِاَنَّ اللّٰهَ يَرٰىۗ ۝١٤",
+                "كَلَّا لَىِٕنْ لَّمْ يَنْتَهِ ەۙ لَنَسْفَعًا ۢ بِالنَّاصِيَةِۙ ۝١٥",
+                "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍۚ ۝١٦",
+                "فَلْيَدْعُ نَادِيَهٗۙ ۝١٧",
+                "سَنَدْعُ الزَّبَانِيَةَۙ ۝١٨",
+                "كَلَّاۗ لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ ۩ࣖ ۝١٩"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_alaq_1.mp3",
+                "sounds/materi_ayat/al_alaq_2.mp3",
+                "sounds/materi_ayat/al_alaq_3.mp3",
+                "sounds/materi_ayat/al_alaq_4.mp3",
+                "sounds/materi_ayat/al_alaq_5.mp3",
+                "sounds/materi_ayat/al_alaq_6.mp3",
+                "sounds/materi_ayat/al_alaq_7.mp3",
+                "sounds/materi_ayat/al_alaq_8.mp3",
+                "sounds/materi_ayat/al_alaq_9.mp3",
+                "sounds/materi_ayat/al_alaq_10.mp3",
+                "sounds/materi_ayat/al_alaq_11.mp3",
+                "sounds/materi_ayat/al_alaq_12.mp3",
+                "sounds/materi_ayat/al_alaq_13.mp3",
+                "sounds/materi_ayat/al_alaq_14.mp3",
+                "sounds/materi_ayat/al_alaq_15.mp3",
+                "sounds/materi_ayat/al_alaq_16.mp3",
+                "sounds/materi_ayat/al_alaq_17.mp3",
+                "sounds/materi_ayat/al_alaq_18.mp3",
+                "sounds/materi_ayat/al_alaq_19.mp3"
+            ],
+            "ayat_latin": [
+                "iqra' bismi rabbikalladzî khalaq",
+                "khalaqal-insâna min 'alaq",
+                "iqra' wa rabbukal-akram",
+                "alladzî 'allama bil-qalam",
+                "'allamal-insâna mâ lam ya'lam",
+                "kallâ innal-insâna layathghâ",
+                "ar ra'âhustaghnâ",
+                "inna ilâ rabbikar-ruj'â",
+                "a ra'aitalladzî yan-hâ",
+                "'abdan idzâ shallâ",
+                "a ra'aita ing kâna 'alal-hudâ",
+                "au amara bit-taqwâ",
+                "a ra'aita ing kadzdzaba wa tawallâ",
+                "a lam ya'lam bi'annallâha yarâ",
+                "kallâ la'il lam yantahi lanasfa'am bin-nâshiyah",
+                "nâshiyating kâdzibatin khâthi'ah",
+                "falyad'u nâdiyah",
+                "sanad'uz-zabâniyah",
+                "kallâ, lâ tuthi'hu wasjud waqtarib"
+            ],
+            "arti": [
+                "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan!",
+                "Dia menciptakan manusia dari segumpal darah.",
+                "Bacalah! Tuhanmulah Yang Mahamulia,",
+                "yang mengajar (manusia) dengan pena.",
+                "Dia mengajarkan manusia apa yang tidak diketahuinya.",
+                "Sekali-kali tidak! Sesungguhnya manusia itu benar-benar melampaui batas",
+                "ketika melihat dirinya serba berkecukupan.",
+                "Sesungguhnya hanya kepada Tuhanmulah tempat kembali(-mu).",
+                "Tahukah kamu tentang orang yang melarang",
+                "seorang hamba ketika dia melaksanakan salat?",
+                "Bagaimana pendapatmu kalau terbukti dia berada di dalam kebenaran",
+                "atau dia menyuruh bertakwa (kepada Allah)?",
+                "Bagaimana pendapatmu kalau dia mendustakan (kebenaran) dan berpaling (dari keimanan)?",
+                "Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?",
+                "Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian), niscaya Kami tarik ubun-ubunnya (ke dalam neraka),",
+                "(yaitu) ubun-ubun orang yang mendustakan (kebenaran) dan durhaka.",
+                "Biarlah dia memanggil golongannya (untuk menolongnya).",
+                "Kelak Kami akan memanggil (Malaikat) Zabaniah (penyiksa orang-orang yang berdosa).",
+                "Sekali-kali tidak! Janganlah patuh kepadanya, (tetapi) sujud dan mendekatlah (kepada Allah)."
+            ]
+        }
+    ],
+    "al_asr": [
+        {
+            "id": 4,
+            "surah": "Al-Asr",
+            "ayat_arabic": [
+                "وَالْعَصْرِۙ ۝١",
+                "اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍۙ ۝٢",
+                "اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ وَتَوَاصَوْا بِالْحَقِّ ەۙ وَتَوَاصَوْا بِالصَّبْرِࣖ ۝٣"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_asr_1.mp3",
+                "sounds/materi_ayat/al_asr_2.mp3",
+                "sounds/materi_ayat/al_asr_3.mp3"
+            ],
+            "ayat_latin": [
+                "wal-'ashr",
+                "innal-insâna lafî khusr",
+                "illalladzîna âmanû wa 'amilush-shâliḫâti wa tawâshau bil-ḫaqqi wa tawâshau bish-shabr"
+            ],
+            "arti": [
+                "Demi masa,",
+                "sesungguhnya manusia benar-benar berada dalam kerugian,",
+                "kecuali orang-orang yang beriman dan beramal saleh serta saling menasihati untuk kebenaran dan kesabaran."
+            ]
+        }
+    ],
+    "al_maun": [
+        {
+            "id": 5,
+            "surah": "Al-Ma'un",
+            "ayat_arabic": [
+                "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِۗ ۝١",
+                "فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَۙ ۝٢",
+                "وَلَا يَحُضُّ عَلٰى طَعَامِ الْمِسْكِيْنِۗ ۝٣",
+                "فَوَيْلٌ لِّلْمُصَلِّيْنَۙ ۝٤",
+                "الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَۙ ۝٥",
+                "الَّذِيْنَ هُمْ يُرَاۤءُوْنَۙ ۝٦",
+                "وَيَمْنَعُوْنَ الْمَاعُوْنَࣖ ۝٧"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_maun_1.mp3",
+                "sounds/materi_ayat/al_maun_2.mp3",
+                "sounds/materi_ayat/al_maun_3.mp3",
+                "sounds/materi_ayat/al_maun_4.mp3",
+                "sounds/materi_ayat/al_maun_5.mp3",
+                "sounds/materi_ayat/al_maun_6.mp3",
+                "sounds/materi_ayat/al_maun_7.mp3"
+            ],
+            "ayat_latin": [
+                "a ra'aitalladzî yukadzdzibu bid-dîn",
+                "fa dzâlikalladzî yadu''ul-yatîm",
+                "wa lâ yaḫudldlu 'alâ tha'âmil-miskîn",
+                "fa wailul lil-mushallîn",
+                "alladzîna hum 'an shalâtihim sâhûn",
+                "alladzîna hum yurâ'ûn",
+                "wa yamna'ûnal-mâ'ûn"
+            ],
+            "arti": [
+                "Tahukah kamu (orang) yang mendustakan agama?",
+                "Itulah orang yang menghardik anak yatim",
+                "dan tidak menganjurkan untuk memberi makan orang miskin.",
+                "Celakalah orang-orang yang melaksanakan salat,",
+                "(yaitu) yang lalai terhadap salatnya,",
+                "yang berbuat riya, ",
+                "dan enggan (memberi) bantuan."
+            ]
+        }
+    ],
+    "al_kautsar": [
+        {
+            "id": 6,
+            "surah": "Al-Kautsar",
+            "ayat_arabic": [
+                "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ ۝١",
+                "فَصَلِّ لِرَبِّكَ وَانْحَرْۗ ۝٢",
+                "اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُࣖ ۝٣"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_kautsar_1.mp3",
+                "sounds/materi_ayat/al_kautsar_2.mp3",
+                "sounds/materi_ayat/al_kautsar_3.mp3"
+            ],
+            "ayat_latin": [
+                "innâ a'thainâkal-kautsar",
+                "fa shalli lirabbika wan-ḫar",
+                "inna syâni'aka huwal-abtar"
+            ],
+            "arti": [
+                "Sesungguhnya Kami telah memberimu (Nabi Muhammad) nikmat yang banyak.",
+                "Maka, laksanakanlah salat karena Tuhanmu dan berkurbanlah!",
+                "Sesungguhnya orang yang membencimu, dialah yang terputus (dari rahmat Allah)."
+            ]
+        }
+    ],
+    "an_nasr": [
+        {
+            "id": 7,
+            "surah": "An-Nasr",
+            "ayat_arabic": [
+                "اِذَا جَاۤءَ نَصْرُ اللّٰهِ وَالْفَتْحُۙ ۝١",
+                "وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللّٰهِ اَفْوَاجًاۙ ۝٢",
+                "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ اِنَّهٗ كَانَ تَوَّابًاࣖ ۝٣"
+            ],
+            "sound": [
+                "sounds/materi_ayat/an_nasr_1.mp3",
+                "sounds/materi_ayat/an_nasr_2.mp3",
+                "sounds/materi_ayat/an_nasr_3.mp3"
+            ],
+            "ayat_latin": [
+                "idzâ jâ'a nashrullâhi wal-fat-ḫ",
+                "wa ra'aitan-nâsa yadkhulûna fî dînillâhi afwâjâ",
+                "fa sabbiḫ biḫamdi rabbika wastaghfir-h, innahû kâna tawwâbâ"
+            ],
+            "arti": [
+                "Apabila telah datang pertolongan Allah dan kemenangan",
+                "dan engkau melihat manusia berbondong-bondong masuk agama Allah,",
+                "bertasbihlah dengan memuji Tuhanmu dan mohonlah ampun kepada-Nya. Sesungguhnya Dia Maha Penerima tobat."
+            ]
+        }
+    ],
+    "al_ikhlas": [
+        {
+            "id": 8,
+            "surah": "Al-Ikhlas",
+            "ayat_arabic": [
+                "قُلْ هُوَ اللّٰهُ اَحَدٌۚ ۝١",
+                "اَللّٰهُ الصَّمَدُۚ ۝٢",
+                "لَمْ يَلِدْ وَلَمْ يُوْلَدْۙ ۝٣",
+                "وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌࣖ ۝٤"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_ikhlas_1.mp3",
+                "sounds/materi_ayat/al_ikhlas_2.mp3",
+                "sounds/materi_ayat/al_ikhlas_3.mp3",
+                "sounds/materi_ayat/al_ikhlas_4.mp3"
+            ],
+            "ayat_latin": [
+                "qul huwallâhu aḫad",
+                "allâhush-shamad",
+                "lam yalid wa lam yûlad",
+                "wa lam yakul lahû kufuwan aḫad"
+            ],
+            "arti": [
+                "Katakanlah (Nabi Muhammad), “Dialah Allah Yang Maha Esa.",
+                "Allah tempat meminta segala sesuatu.",
+                "Dia tidak beranak dan tidak pula diperanakkan",
+                "serta tidak ada sesuatu pun yang setara dengan-Nya.”"
+            ]
+        }
+    ],
+    "al_falaq": [
+        {
+            "id": 9,
+            "surah": "Al-Falaq",
+            "ayat_arabic": [
+                "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ ۝١",
+                "مِنْ شَرِّ مَا خَلَقَۙ ۝٢",
+                "وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ ۝٣",
+                "وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ ۝٤",
+                "وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَࣖ ۝٥"
+            ],
+            "sound": [
+                "sounds/materi_ayat/al_falaq_1.mp3",
+                "sounds/materi_ayat/al_falaq_2.mp3",
+                "sounds/materi_ayat/al_falaq_3.mp3",
+                "sounds/materi_ayat/al_falaq_4.mp3",
+                "sounds/materi_ayat/al_falaq_5.mp3"
+            ],
+            "ayat_latin": [
+                "qul a'ûdzu birabbil-falaq",
+                "min syarri mâ khalaq",
+                "wa min syarri ghâsiqin idzâ waqab",
+                "wa min syarrin-naffâtsâti fil-'uqad",
+                "wa min syarri ḫâsidin idzâ ḫasad"
+            ],
+            "arti": [
+                "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh) ",
+                "dari kejahatan (makhluk yang) Dia ciptakan,",
+                "dari kejahatan malam apabila telah gelap gulita,",
+                "dari kejahatan perempuan-perempuan (penyihir) yang meniup pada buhul-buhul (talinya),",
+                "dan dari kejahatan orang yang dengki apabila dia dengki.”"
+            ]
+        }
+    ],
+    "an_naas": [
+        {
+            "id": 10,
+            "surah": "An-Naas",
+            "ayat_arabic": [
+                "قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ ۝١",
+                "مَلِكِ النَّاسِۙ ۝٢",
+                "اِلٰهِ النَّاسِۙ ۝٣",
+                "مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ ۝٤",
+                "الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ ۝٥",
+                "مِنَ الْجِنَّةِ وَالنَّاسِࣖ ۝٦"
+            ],
+            "sound": [
+                "sounds/materi_ayat/an_naas_1.mp3",
+                "sounds/materi_ayat/an_naas_2.mp3",
+                "sounds/materi_ayat/an_naas_3.mp3",
+                "sounds/materi_ayat/an_naas_4.mp3",
+                "sounds/materi_ayat/an_naas_5.mp3",
+                "sounds/materi_ayat/an_naas_6.mp3"
+            ],
+            "ayat_latin": [
+                "qul a'ûdzu birabbin-nâs",
+                "malikin-nâs",
+                "ilâhin-nâs",
+                "min syarril-waswâsil-khannâs",
+                "alladzî yuwaswisu fî shudûrin-nâs",
+                "minal-jinnati wan-nâs"
+            ],
+            "arti": [
+                "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan manusia,",
+                "raja manusia,",
+                "sembahan manusia",
+                "dari kejahatan (setan) pembisik yang bersembunyi",
+                "yang membisikkan (kejahatan) ke dalam dada manusia,",
+                "dari (golongan) jin dan manusia."
+            ]
+        }
+    ]
+}

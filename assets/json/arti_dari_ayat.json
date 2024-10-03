@@ -1,0 +1,225 @@
+{
+    "arti_dari_ayat": [
+        {
+            "id": 0,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَۙ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_2.mp3",
+            "options": [
+                "Tahukah kamu orang yang mendustakan agama?",
+                "Maka itulah orang yang menghardik anak yatim",
+                "Maka celakalah orang yang shalat",
+                "Yang berbuat riya'"
+            ],
+            "correct_answer": "Maka itulah orang yang menghardik anak yatim"
+        },
+        {
+            "id": 1,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "وَلَا يَحُضُّ عَلٰى طَعَامِ الْمِسْكِيْنِۗ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_3.mp3",
+            "options": [
+                "Dan tidak mendorong memberi makan orang miskin",
+                "Maka itulah orang yang menghardik anak yatim",
+                "Maka celakalah orang yang shalat",
+                "Dan enggan memberi bantuan"
+            ],
+            "correct_answer": "Dan tidak mendorong memberi makan orang miskin"
+        },
+        {
+            "id": 2,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَࣖ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_7.mp3",
+            "options": [
+                "Dan tidak mendorong memberi makan orang miskin",
+                "Dan enggan memberikan bantuan",
+                "Yang berbuat riya'",
+                "Tahukah kamu orang yang mendustakan agama?"
+            ],
+            "correct_answer": "Dan enggan memberikan bantuan"
+        },
+        {
+            "id": 3,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِۗ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_1.mp3",
+            "options": [
+                "Dan tidak mendorong memberi makan orang miskin",
+                "Dan enggan memberikan bantuan",
+                "Yang berbuat riya'",
+                "Tahukah kamu orang yang mendustakan agama?"
+            ],
+            "correct_answer": "Tahukah kamu orang yang mendustakan agama?"
+        },
+        {
+            "id": 4,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "فَوَيْلٌ لِّلْمُصَلِّيْنَۙ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_4.mp3",
+            "options": [
+                "Maka celakalah orang yang shalat",
+                "Dan enggan memberikan bantuan",
+                "Yang berbuat riya'",
+                "Tahukah kamu orang yang mendustakan agama?"
+            ],
+            "correct_answer": "Maka celakalah orang yang shalat"
+        },
+        {
+            "id": 5,
+            "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
+            "question": "الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَۙ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_5.mp3",
+            "options": [
+                "Maka celakalah orang yang shalat",
+                "Dan enggan memberikan bantuan",
+                "Yaitu orang-orang yang lalai dalam shalatnya",
+                "Tahukah kamu orang yang mendustakan agama?"
+            ],
+            "correct_answer": "Yaitu orang-orang yang lalai dalam shalatnya"
+        },
+        {
+            "id": 6,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "يُكَذِّبُ",
+            "sound": "",
+            "options": [
+                "Menghardik",
+                "Mendustakan",
+                "Dan tidak mendorong",
+                "Orang-orang yang shalat"
+            ],
+            "correct_answer": "Mendustakan"
+        },
+        {
+            "id": 7,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "الْمَاعُوْنَࣖ",
+            "sound": "",
+            "options": [
+                "Memberikan bantuan",
+                "Berbuat riya'",
+                "Lalai",
+                "Terhadap shalatnya"
+            ],
+            "correct_answer": "Memberikan bantuan"
+        },
+        {
+            "id": 8,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "وَلَا يَحُضُّ",
+            "sound": "",
+            "options": [
+                "Dan tidak mendorong",
+                "Agama",
+                "Memberi makan",
+                "Maka celakalah"
+            ],
+            "correct_answer": "Dan tidak mendorong"
+        },
+        {
+            "id": 9,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "الَّذِيْنَ هُمْ",
+            "sound": "",
+            "options": [
+                "Anak yatim",
+                "Agama",
+                "Yang mereka itu",
+                "Menghardik"
+            ],
+            "correct_answer": "Yang mereka itu"
+        },
+        {
+            "id": 10,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "بِالدِّيْنِۗ",
+            "sound": "",
+            "options": [
+                "Anak yatim",
+                "Agama",
+                "Yang mereka itu",
+                "Menghardik"
+            ],
+            "correct_answer": "Agama"
+        },
+        {
+            "id": 11,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "عَلٰى طَعَامِ",
+            "sound": "",
+            "options": [
+                "Memberi makan",
+                "Anak yatim",
+                "Orang miskin",
+                "Orang yang"
+            ],
+            "correct_answer": "Memberi makan"
+        },
+        {
+            "id": 12,
+            "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
+            "question": "عَلٰى طَعَامِ",
+            "sound": "",
+            "options": [
+                "Memberi makan",
+                "Anak yatim",
+                "Orang miskin",
+                "Orang yang"
+            ],
+            "correct_answer": "Memberi makan"
+        },
+        {
+            "id": 13,
+            "naration": "Di bawah ini termasuk potongan ayat surat..",
+            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَࣖ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_7.mp3",
+            "options": [
+                "Al-Alaq",
+                "Al-Balad",
+                "Al-Kafirun",
+                "Al-Ma'un"
+            ],
+            "correct_answer": "Al-Ma'un"
+        },
+        {
+            "id": 14,
+            "naration": "Di bawah ini termasuk potongan surat Al-Ma'un ayat..",
+            "question": "فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَۙ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_2.mp3",
+            "options": [
+                "Ayat 3",
+                "Ayat 6",
+                "Ayat 2",
+                "Ayat 7"
+            ],
+            "correct_answer": "Ayat 2"
+        },
+        {
+            "id": 15,
+            "naration": "Di bawah ini termasuk potongan surat Al-Ma'un ayat..",
+            "question": "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِۗ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_1.mp3",
+            "options": [
+                "Ayat 3",
+                "Ayat 6",
+                "Ayat 1",
+                "Ayat 7"
+            ],
+            "correct_answer": "Ayat 1"
+        },
+        {
+            "id": 16,
+            "naration": "Di bawah ini termasuk potongan surat Al-Ma'un ayat..",
+            "question": "وَلَا يَحُضُّ عَلٰى طَعَامِ الْمِسْكِيْنِۗ",
+            "sound": "sounds/arti_ayat/Al-Ma'un_3.mp3",
+            "options": [
+                "Ayat 3",
+                "Ayat 6",
+                "Ayat 1",
+                "Ayat 7"
+            ],
+            "correct_answer": "Ayat 3"
+        }
+    ]
+}

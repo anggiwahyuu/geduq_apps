@@ -1,0 +1,376 @@
+{
+    "arti_nama_surat": [
+        {
+            "id": 0,
+            "question": "News dalam Bahasa Inggris memiliki arti berita. Surat apakah yang termasuk dari arti 'news'?",
+            "image": null,
+            "options": [
+                "Al-Qori'ah",
+                "Al-'Adiyat",
+                "An-Naba'",
+                "Al-Lahab"
+            ],
+            "correct_answer": "An-Naba'"
+        },
+        {
+            "id": 1,
+            "question": "Manakah arti nama surat dari gambar disamping?",
+            "image": "assets/images/gajah.png",
+            "options": [
+                "Al-Fil",
+                "Al-Balad",
+                "An-Naas",
+                "Al-'Alaq"
+            ],
+            "correct_answer": "Al-Fil"
+        },
+        {
+            "id": 2,
+            "question": "Allah SWT menurunkan Al-Qur'an pada malam yang mulia. Hal itu disebutkan dalam surah?",
+            "image": null,
+            "options": [
+                "An-Nazi'at",
+                "Quraisy",
+                "At-Thariq",
+                "Al-Qadr"
+            ],
+            "correct_answer": "Al-Qadr"
+        },
+        {
+            "id": 3,
+            "question": "Gambar disamping merupakan buah yang tercantum dalam surah apa?",
+            "image": "assets/images/buah_tin.png",
+            "options": [
+                "Al-Humazah",
+                "Asy-Syams",
+                "At-Tin",
+                "Al-Qadr"
+            ],
+            "correct_answer": "At-Tin"
+        },
+        {
+            "id": 4,
+            "question": "Nabi Muhammd SAW mendapatkan wahyu yang pertama sebanyak 5 ayat. Di dalam surat apakah ayat tersebut?",
+            "image": null,
+            "options": [
+                "Al-Alaq",
+                "Ad-Dhuha",
+                "Al-Infithar",
+                "Al-Mutaffifin"
+            ],
+            "correct_answer": "Al-Alaq"
+        },
+        {
+            "id": 5,
+            "question": "Manakah surat berikut yang menggambarkan suasana gambar di samping?",
+            "image": "assets/images/suasana_malam.jpg",
+            "options": [
+                "Al-Insyiqaq",
+                "Al-Kautsar",
+                "Al-Lail",
+                "Al-Ikhlas"
+            ],
+            "correct_answer": "Al-Lail"
+        },
+        {
+            "id": 6,
+            "question": "Surat yang membahas mengenai tidak ada campuraduk ajaran ajaran Islam dengan agama lain tercantum dalam surat?",
+            "image": null,
+            "options": [
+                "Al-Kafirun",
+                "Al-Ikhlas",
+                "Al-Falaq",
+                "An-Naas"
+            ],
+            "correct_answer": "Al-Kafirun"
+        },
+        {
+            "id": 7,
+            "question": "Manakah surat berikut yang menggambarkan suasana gambar di samping?",
+            "image": "assets/images/matahari.jpg",
+            "options": [
+                "Al-Lail",
+                "Asy-Syams",
+                "Al-Infithar",
+                "An-Ma'un"
+            ],
+            "correct_answer": "Asy-Syams"
+        },
+        {
+            "id": 8,
+            "question": "Allah bersumpah dengan waktu. Manakah surat berikut yang mendeskripsikan gambar di samping?",
+            "image": "assets/images/jam.png",
+            "options": [
+                "Al-Asr",
+                "Al-Qori'ah",
+                "'Abasa",
+                "At-Takwir"
+            ],
+            "correct_answer": "Al-Asr"
+        },
+        {
+            "id": 9,
+            "question": "Seorang paman nabi Abu Lahab dan Istrinya membenci perjuangan nabi Muhammad SAW. Hal itu tercantum dalam surat?",
+            "image": null,
+            "options": [
+                "Al-A'la",
+                "Al-Balad",
+                "Al-Lahab",
+                "Al-Zalzalah"
+            ],
+            "correct_answer": "Al-Lahab"
+        },
+        {
+            "id": 10,
+            "question": "Berapa jumlah surah yang terdapat dalam Juz 'Amma?",
+            "image": null,
+            "options": [
+                "34",
+                "35",
+                "36",
+                "37"
+            ],
+            "correct_answer": "37"
+        },
+        {
+            "id": 11,
+            "question": "Apa yang dicontohkan dalam Surah Al-Mutaffifin tentang perbuatan yang tidak baik?",
+            "image": null,
+            "options": [
+                "Kecurangan mengerjakan tugas",
+                "Penipuan dalam perdagangan",
+                "Suka menghina teman",
+                "Membentak kepada kedua orang tua"
+            ],
+            "correct_answer": "Kecurangan mengerjakan tugas"
+        },
+        {
+            "id": 12,
+            "question": "Apa tema utama dari Surah Al-Qariah?",
+            "image": null,
+            "options": [
+                "Kabar gembira",
+                "Hari kiamat",
+                "Waktu fajar",
+                "Ikhlas"
+            ],
+            "correct_answer": "Hari kiamat"
+        },
+        {
+            "id": 13,
+            "question": "Apa yang diajarkan dalam Surah Al-Ikhlas tentang Tuhan?",
+            "image": null,
+            "options": [
+                "Tuhan ada banyak",
+                "Tuhan membutuhkan makan dan tidur",
+                "Tuhan adalah Satu dan Tidak Memerlukan Sesuatu",
+                "Tuhan memiliki bapak/ibu/anak/suami/istri"
+            ],
+            "correct_answer": "Tuhan adalah Satu dan Tidak Memerlukan Sesuatu"
+        },
+        {
+            "id": 14,
+            "question": "Dalam Surah Al-Falaq, dari apa saja kita memohon perlindungan?",
+            "image": null,
+            "options": [
+                "Dari dosa dan kesalahan",
+                "Dari keburukan makhluk dan kejahatan malam",
+                "Dari musuh dan ancaman",
+                "Dari penyakit dan kemiskinan"
+            ],
+            "correct_answer": "Dari keburukan makhluk dan kejahatan malam"
+        },
+        {
+            "id": 15,
+            "question": "Sesuai urutan mushaf, setelah surat as-Syams adalah surat..",
+            "image": null,
+            "options": [
+                "Al-Lail",
+                "Ad-Dhuha",
+                "Al-Zalzalah",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Lail"
+        },
+        {
+            "id": 16,
+            "question": "Surat yang bukan termasuk yang membahas hari kiamat adalah",
+            "image": null,
+            "options": [
+                "Al-Qori'ah",
+                "An-Naba",
+                "Al-Zalzalah",
+                "Al-Kautsar"
+            ],
+            "correct_answer": "Al-Kautsar"
+        },
+        {
+            "id": 17,
+            "question": "Berapakah jumlah ayat dari surat Ad-Duha?",
+            "image": null,
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "correct_answer": "11"
+        },
+        {
+            "id": 18,
+            "question": "Berapakah jumlah ayat dari surat Al-Balad?",
+            "image": null,
+            "options": [
+                "20",
+                "21",
+                "22",
+                "23"
+            ],
+            "correct_answer": "20"
+        },
+        {
+            "id": 19,
+            "question": "Berapakah jumlah ayat dari surat An-Naba'?",
+            "image": null,
+            "options": [
+                "39",
+                "40",
+                "41",
+                "42"
+            ],
+            "correct_answer": "40"
+        },
+        {
+            "id": 20,
+            "question": "Surat Al-Ma'un memiliki arti?",
+            "image": null,
+            "options": [
+                "Barang berguna",
+                "Manusia",
+                "Waktu Dhuha",
+                "Demi masa"
+            ],
+            "correct_answer": "Barang berguna"
+        },
+        {
+            "id": 21,
+            "question": "Surat Al-Ma'un diturunkan dimana?",
+            "image": null,
+            "options": [
+                "Madinah",
+                "Palestina",
+                "Babilonia",
+                "Makkah"
+            ],
+            "correct_answer": "Makkah"
+        },
+        {
+            "id": 22,
+            "question": "Berapakah jumlah ayat dari surat Al-Ma'un?",
+            "image": null,
+            "options": [
+                "12",
+                "7",
+                "13",
+                "5"
+            ],
+            "correct_answer": "7"
+        },
+        {
+            "id": 23,
+            "question": "Siapakah orang yang celaka walaupun dia melaksanakan shalat?",
+            "image": null,
+            "options": [
+                "Orang beriman",
+                "Orang lalai dalam shalat",
+                "Orang cerdas",
+                "Orang beruntung"
+            ],
+            "correct_answer": "Orang lalai dalam shalat"
+        },
+        {
+            "id": 24,
+            "question": "Surat yang diturunkan di Makkah disebut sebagai surat?",
+            "image": null,
+            "options": [
+                "Madaniyah",
+                "Fathanah",
+                "Makkiyah",
+                "Banjariyah"
+            ],
+            "correct_answer": "Makkiyah"
+        },
+        {
+            "id": 25,
+            "question": "QS. Al-Ma'un merupakan surat ke ... dalam Al-Qur'an",
+            "image": null,
+            "options": [
+                "108",
+                "107",
+                "114",
+                "109"
+            ],
+            "correct_answer": "107"
+        },
+        {
+            "id": 26,
+            "question": "Manakah yang bukan hukum tajwid mim sukun/tanwin?",
+            "image": null,
+            "options": [
+                "Izhar Syafawi",
+                "Iqlab",
+                "Idgham Mistlain",
+                "Ikhfa' Syafawi"
+            ],
+            "correct_answer": "Iqlab"
+        },
+        {
+            "id": 27,
+            "question": "Bagaimana cara membaca izhar?",
+            "image": null,
+            "options": [
+                "Dengung",
+                "Samar",
+                "Jelas",
+                "Memantul"
+            ],
+            "correct_answer": "Jelas"
+        },
+        {
+            "id": 28,
+            "question": "“dan tidak mendorong memberi makan orang miskin”. Ayat yang sesuai dengan terjemah di atas adalah surat Al-Ma'un ayat...",
+            "image": null,
+            "options": [
+                "6",
+                "5",
+                "4",
+                "3"
+            ],
+            "correct_answer": "3"
+        },
+        {
+            "id": 31,
+            "question": "Sikap yang baik terhadap anak yatim adalah, kecuali...",
+            "image": null,
+            "options": [
+                "Menghardiknya",
+                "Memberi makan",
+                "Menyayangi sepenuh hati",
+                "Memberi rasa simpati"
+            ],
+            "correct_answer": "Menghardiknya"
+        },
+        {
+            "id": 33,
+            "question": "Berapakah jumlah ayat dari surat Al-Ma'un?",
+            "image": null,
+            "options": [
+                "12",
+                "7",
+                "13",
+                "5"
+            ],
+            "correct_answer": "7"
+        }
+    ]
+}

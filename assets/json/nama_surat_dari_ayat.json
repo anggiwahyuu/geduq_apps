@@ -1,0 +1,244 @@
+{
+    "nama_surat_dari_ayat": [
+        {
+            "id": 0,
+            "question": "اَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِاَصْحٰبِ الْفِيْلِۗ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Fil_1.mp3",
+            "options": [
+                "Al-Insyirah",
+                "An-Naas",
+                "Al-Falaq",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Fil"
+        },
+        {
+            "id": 1,
+            "question": "الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ",
+            "sound": "sounds/nama_surat_dari_ayat/An-Nas_5.mp3",
+            "options": [
+                "Al-Ikhlas",
+                "Al-Lahab",
+                "An-Naas",
+                "Al-Asr"
+            ],
+            "correct_answer": "An-Naas"
+        },
+        {
+            "id": 4,
+            "question": "اِقْرَأْ بِاسْمِ رَبِّكَ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Alaq_1.mp3",
+            "options": [
+                "Al-Falaq",
+                "An-Naas",
+                "Al-Alaq",
+                "Al-Kafirun"
+            ],
+            "correct_answer": "Al-Alaq"
+        },
+        {
+            "id": 5,
+            "question": "وَلَآ اَنَا۠ عَابِدٌ مَّا عَبَدْتُّمْۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Kafirun_4.mp3",
+            "options": [
+                "Al-Insyirah",
+                "Al-Humazah",
+                "Al-Kafirun",
+                "Al-'Adiyat"
+            ],
+            "correct_answer": "Al-Kafirun"
+        },
+        {
+            "id": 6,
+            "question": "مِنْ شَرِّ مَا خَلَقَۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Falaq_2.mp3",
+            "options": [
+                "Al-Ikhlas",
+                "At-Takasur",
+                "Al-Bayyinah",
+                "Al-Falaq"
+            ],
+            "correct_answer": "Al-Falaq"
+        },
+        {
+            "id": 7,
+            "question": "قُلْ هُوَ اللّٰهُ اَحَدٌۚ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Ahad_1.mp3",
+            "options": [
+                "Al-Ikhlas",
+                "Ad-Dhuha",
+                "Al-Fajr",
+                "At-Tin"
+            ],
+            "correct_answer": "Al-Ikhlas"
+        },
+        {
+            "id": 8,
+            "question": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ",
+            "sound": "sounds/nama_surat_dari_ayat/An-Nasr_3.mp3",
+            "options": [
+                "An-Nasr",
+                "An-Naas",
+                "Al-Ma'un",
+                "Al-Fil"
+            ],
+            "correct_answer": "An-Nasr"
+        },
+        {
+            "id": 9,
+            "question": "الَّذِيْٓ اَطْعَمَهُمْ مِّنْ جُوْعٍ ەۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Quraisy_4.mp3",
+            "options": [
+                "Al-Humazah",
+                "Al-Ikhlas",
+                "Quraisy",
+                "Al-Fil"
+            ],
+            "correct_answer": "Quraisy"
+        },
+        {
+            "id": 10,
+            "question": "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Kautsar_1.mp3",
+            "options": [
+                "Al-Kautsar",
+                "Al-Ma'un",
+                "Al-Lahab",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Kautsar"
+        },
+        {
+            "id": 11,
+            "question": "اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Asr_2.mp3",
+            "options": [
+                "Al-Humazah",
+                "Al-Asr",
+                "Al-Ikhlas",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Asr"
+        },
+        {
+            "id": 12,
+            "question": "وَالْعٰدِيٰتِ ضَبْحًاۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Adiyat_1.mp3",
+            "options": [
+                "Al-Insyirah",
+                "Al-Humazah",
+                "Al-'Adiyat",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-'Adiyat"
+        },
+        {
+            "id": 15,
+            "question": "وَلَلْاٰخِرَةُ خَيْرٌ لَّكَ مِنَ الْاُوْلٰىۗ",
+            "sound": "sounds/nama_surat_dari_ayat/Ad-Dhuha_4.mp3",
+            "options": [
+                "Ad-Dhuha",
+                "Al-Kafirun",
+                "Al-Fajr",
+                "At-Tin"
+            ],
+            "correct_answer": "Ad-Dhuha"
+        },
+        {
+            "id": 17,
+            "question": "حَتّٰى زُرْتُمُ الْمَقَابِرَۗ",
+            "sound": "sounds/nama_surat_dari_ayat/At-Takasur_2.mp3",
+            "options": [
+                "Al-Humazah",
+                "Al-Bayyinah",
+                "Al-Alaq",
+                "At-Takasur"
+            ],
+            "correct_answer": "At-Takasur"
+        },
+        {
+            "id": 18,
+            "question": "وَلَسَوْفَ يُعْطِيْكَ رَبُّكَ فَتَرْضٰىۗ",
+            "sound": "sounds/nama_surat_dari_ayat/Ad-Dhuha_5.mp3",
+            "options": [
+                "Al-Humazah",
+                "Al-Fajr",
+                "Al-Alaq",
+                "Ad-Dhuha"
+            ],
+            "correct_answer": "Ad-Dhuha"
+        },
+        {
+            "id": 19,
+            "question": "اَلَمْ نَشْرَحْ لَكَ صَدْرَكَۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Insyirah_1.mp3",
+            "options": [
+                "Al-Insyirah",
+                "Al-Ma'un",
+                "Al-Kafirun",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Insyirah"
+        },
+        {
+            "id": 20,
+            "question": "فَاِنَّ مَعَ الْعُسْرِ يُسْرًاۙ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Insyirah_5.mp3",
+            "options": [
+                "Al-Insyirah",
+                "Al-Ma'un",
+                "Al-Kafirun",
+                "Al-Fil"
+            ],
+            "correct_answer": "Al-Insyirah"
+        },
+        {
+            "id": 21,
+            "question": "وَالتِّيْنِ وَالزَّيْتُوْنِۙ",
+            "sound": "sounds/nama_surat_dari_ayat/At-Tin_1.mp3",
+            "options": [
+                "Al-Kafirun",
+                "Al-Humazah",
+                "At-Tin",
+                "Al-Balad"
+            ],
+            "correct_answer": "At-Tin"
+        },
+        {
+            "id": 22,
+            "question": "وَهٰذَا الْبَلَدِ الْاَمِيْنِۙ",
+            "sound": "sounds/nama_surat_dari_ayat/At-Tin_3.mp3",
+            "options": [
+                "Al-Kafirun",
+                "Al-Humazah",
+                "At-Tin",
+                "Al-Ikhlas"
+            ],
+            "correct_answer": "At-Tin"
+        },
+        {
+            "id": 23,
+            "question": "اِنَّآ اَنْزَلْنٰهُ فِيْ لَيْلَةِ الْقَدْرِ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Qadr_1.mp3",
+            "options": [
+                "Al-Qadr",
+                "An-Naas",
+                "Al-Falaq",
+                "Al-Ikhlas"
+            ],
+            "correct_answer": "Al-Qadr"
+        },
+        {
+            "id": 24,
+            "question": "لَيْلَةُ الْقَدْرِ ەۙ خَيْرٌ مِّنْ اَلْفِ شَهْرٍۗ",
+            "sound": "sounds/nama_surat_dari_ayat/Al-Qadr_3.mp3",
+            "options": [
+                "Al-Qadr",
+                "Al-Ma'un",
+                "Al-Lahab",
+                "Al-Alaq"
+            ],
+            "correct_answer": "Al-Qadr"
+        }
+    ]
+}

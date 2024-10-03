@@ -1,0 +1,244 @@
+{
+    "sejarah_kebudayaan_islam": [
+        {
+            "id": 0,
+            "title": "Surah Al-Kafirun",
+            "information": "adalah sebuah surat istimewa yang Allah turunkan untuk mengajarkan Nabi Muhammad tentang pentingnya iman yang kuat. Dalam surah ini, Allah menyuruh Nabi Muhammad untuk tetap setia pada ajaran Islam dan tidak mengikuti orang-orang yang tidak percaya. Surat ini mengajarkan kita bahwa meskipun orang memiliki keyakinan yang berbeda, kita harus tetap teguh pada iman kita dan menghargai perbedaan yang ada. Dengan enam ayatnya, Surah Al-Kafirun mengingatkan kita untuk selalu percaya pada kebenaran dan menghormati orang lain."
+        },
+        {
+            "id": 1,
+            "title": "Surah An-Nazi'at",
+            "information": "bercerita tentang Nabi Musa yang menghadapi Firaun yang sangat sombong. Nabi Musa membawa tongkat yang bisa berubah menjadi ular sebagai mukjizat dari Allah. Meskipun Firaun diberi peringatan, dia tetap menolak, dan akhirnya dia mendapat hukuman. Selain itu, surah ini juga mengingatkan tentang hari kiamat yang akan datang dengan sangat dahsyat dan mengajarkan kita pentingnya iman dan ketaatan kepada Allah."
+        },
+        {
+            "id": 2,
+            "title": "Surah Abasa",
+            "information": "bercerita tentang saat Nabi Muhammad diberi teguran oleh Allah karena menunjukkan wajah masam kepada seorang lelaki buta yang datang meminta nasihat. Allah mengajarkan bahwa kita harus memperhatikan dan menghargai setiap orang, tidak peduli siapa mereka. Selain itu, surah ini juga mengingatkan bahwa hari kiamat akan datang, dan setiap orang akan mendapatkan balasan sesuai dengan perbuatan mereka."
+        },
+        {
+            "id": 3,
+            "title": "Surah Al-Buruj",
+            "information": "bercerita tentang sekelompok orang yang sangat beriman dan berani, meski mereka dibakar hidup-hidup oleh penguasa yang jahat karena keyakinan mereka. Surah ini mengajarkan bahwa Allah akan melindungi orang-orang yang beriman dan memberikan balasan kepada orang-orang yang tidak adil. Meskipun sangat sulit, iman dan keteguhan hati mereka tidak akan pernah sia-sia."
+        },
+        {
+            "id": 4,
+            "title": "Surah Ad-Duha",
+            "information": "menceritakan saat Allah menghibur Nabi Muhammad yang merasa kesepian karena wahyu berhenti sejenak. Allah berjanji bahwa kehidupan Nabi Muhammad akan menjadi lebih baik dan penuh berkah. Surah ini mengajarkan kita untuk selalu sabar dan yakin bahwa setelah menghadapi kesulitan, Allah akan memberikan kemudahan dan kebahagiaan."
+        },
+        {
+            "id": 5,
+            "title": "Nabi Musa",
+            "information": "dan kaumnya dikejar oleh pasukan Firaun. Dengan izin Allah, Nabi Musa memukulkan tongkatnya ke Laut Merah, dan laut terbelah menjadi dua. Kaum Nabi Musa pun bisa melintasi laut dengan aman, sementara pasukan Firaun tenggelam di laut yang tertutup kembali."
+        },
+        {
+            "id": 6,
+            "title": "Nabi Nuh",
+            "information": "membangun sebuah kapal besar sesuai perintah Allah untuk menyelamatkan dirinya, keluarganya, dan berbagai jenis hewan dari banjir besar. Setelah hujan turun selama 40 hari, kapal tersebut selamat, dan bumi kembali kering. Ini menunjukkan kekuatan dan kasih sayang Allah."
+        },
+        {
+            "id": 7,
+            "title": "Nabi Ayub",
+            "information": "adalah contoh kesabaran dan keteguhan iman. Meskipun beliau mengalami banyak penderitaan dan kehilangan, Ayub tetap sabar dan bersyukur kepada Allah. Akhirnya, Allah memberikan kesembuhan dan lebih banyak nikmat kepada Ayub sebagai balasan atas kesabarannya."
+        },
+        {
+            "id": 8,
+            "title": "Nabi Yunus",
+            "information": "merasa putus asa dan melarikan diri dari tugasnya. Dia kemudian ditelan oleh ikan besar dan berada di dalam perut ikan selama tiga hari. Di dalam perut ikan, Nabi Yunus berdoa dan memohon ampun kepada Allah. Allah kemudian menyelamatkannya dan ia kembali ke tugasnya dengan penuh semangat."
+        },
+        {
+            "id": 9,
+            "title": "Nabi Ibrahim",
+            "information": "diperintahkan Allah untuk mengorbankan anaknya, Nabi Ismail. Namun, Allah menggantikan anaknya dengan seekor domba sebagai bentuk ujian dan kasih sayang-Nya. Ini mengajarkan kita tentang kepatuhan dan keikhlasan dalam beribadah."
+        }
+    ],
+    "doa_doa_harian": [
+        {
+            "id": 0,
+            "title": "DOA UNTUK KEDUA ORANG TUA",
+            "doa_arabic": "اَللّهُمَّ اغْفِرْلِيْ وَلِوَالِدَيَّ وَارْحَمْهُمَاكَمَارَبَّيَانِيْ صَغِيْرَا",
+            "doa_latin": "Allahumma firlii wa liwaa lidhayya warham humaa kamaa rabbayaa nii shaghiraa.",
+            "meaning": "\"Wahai Tuhanku. ampunilah aku dan kedua orang tuaku (ibu dan Bapakku), sayangilah mereka seperti mereka menyayangiku waktu aku kecil.\""
+        },
+        {
+            "id": 1,
+            "title": "DOA MASUK KAMAR MANDI",
+            "doa_arabic": "بِسْمِ اللَّهِ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+            "doa_latin": "Bismillâhi Allâhumma innî a'ûdzu bika minal khubutsi wal khabâitsi",
+            "meaning": "\"Ya Allah, aku berlindung pada-Mu dari godaan iblis jantan dan betina.\""
+        },
+        {
+            "id": 2,
+            "title": "DOA KELUAR KAMAR MANDI",
+            "doa_arabic": "الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ",
+            "doa_latin": "Alhamdulillahi alladzi adzhaba 'anni al-adza wa 'aafaani.",
+            "meaning": "\"Segala puji bagi Allah yang telah menghilangkan penyakit dari tubuhku, dan mensehatkan aku.\""
+        },
+        {
+            "id": 3,
+            "title": "DOA MAU TIDUR",
+            "doa_arabic": "بِسْمِكَ اللّهُمَّ اَحْيَا وَ بِسْمِكَ اَمُوْتُ",
+            "doa_latin": "Bismika allahumma ahyaa wa amuut",
+            "meaning": "\"Dengan menyebut nama Allah yang menghidupkan dan mematikan.\""
+        },
+        {
+            "id": 4,
+            "title": "DOA BANGUN TIDUR",
+            "doa_arabic": "اَلْحَمْدُ ِللهِ الَّذِى أَحْيَانَا بَعْدَمَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+            "doa_latin": "Alhamdulillâhil ladzî ahyânâ ba'da mâ amâtanâ wa ilaihin nusyûr",
+            "meaning": "\"Segala puji bagi Allah, Tuhan yang menghidupkan kami setelah Ia mematikan kami. Kepada-Nya lah kebangkitan hari Kiamat.\""
+        },
+        {
+            "id": 5,
+            "title": "DOA MAU BELAJAR",
+            "doa_arabic": "رَضِيْتُ بِاللهِ رَبًّا وَبِالإِسْلَامِ دِيْنًا وَبِمُحَمَّدٍ نَبِيًّا وَرَسُوْلًا رَبِّ زِدْنِيْ عِلْمًا وَارْزُقْنِيْ فَهْمًا",
+            "doa_latin": "Rodlitu billahi robba, wabi islaamidina, wabimuhammadin nabiyya warasulla Robbi zidni ilman nafi'a warzuqni fahma.",
+            "meaning": "\"Aku ridha Allah SWT sebagai Tuhanku, dan Islam sebagai agamaku, dan Muhammad SAW sebagai Nabi dan Rasulku. Ya Allah tambahkanlah kepadaku ilmu dan berikanlah aku pemahaman yang baik.\""
+        },
+        {
+            "id": 6,
+            "title": "DOA SETELAH BELAJAR/MAJLIS",
+            "doa_arabic": "سُبْحاَنَكَ اللّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لاَ اِلهَ اِلاَّ اَنْتَ اَسْتَغْفِرُكَ وَأَتُوْبُ اِلَيْك",
+            "doa_latin": "Subhanakallahumma wa bihamdika, asyhadu al-laa ilaaha illaa anta, astaghfiruka, wa atuubu ilaik.",
+            "meaning": "\"Maha Suci Engkau ya Allah, aku memujiMu. Aku bersaksi bahwa tidak ada sesembahan yang berhak disembah kecuali Engkau, aku minta ampun dan bertaubat kepada-Mu.\" (HR At Tirmidzi dan Abu Daud)"
+        },
+        {
+            "id": 7,
+            "title": "DOA MAU MAKAN",
+            "doa_arabic": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+            "doa_latin": "Allahumma baarik lanaa fiimaa rozaqtanaa wa qinaa 'adzaa bannaar",
+            "meaning": "\"Ya Allah berkahilah rizki yang telah Engkau berikan kepada kami dan jauhkanlah kami dari siksa Neraka, Bismillah.\""
+        },
+        {
+            "id": 8,
+            "title": "DOA SETELAH MAKAN",
+            "doa_arabic": "اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ",
+            "doa_latin": "Alhamdu lillahhil-ladzi ath-amanaa wa saqaana waja'alanaa minal muslimiin",
+            "meaning": "\"Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami termasuk golongan orang muslim.\""
+        },
+        {
+            "id": 9,
+            "title": "DOA MASUK MASJID",
+            "doa_arabic": "اللَّهُمَّ افْتَحْ لي أبْوَابَ رَحْمَتِكَ",
+            "doa_latin": "Allahummaftahliy abwaaba rahmatika",
+            "meaning": "\"Ya Allah, bukakanlah untukku pintu rahmat-Mu\""
+        },
+        {
+            "id": 10,
+            "title": "DOA KELUAR MASJID",
+            "doa_arabic": "اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ فَضْلِكَ",
+            "doa_latin": "Allaahummaghfir lii dzunuu biii waftah lii abwaaba fadhlika",
+            "meaning": "\"Ya Allah ya Tuhan kami, ampunilah dosa-dosaku dan bukakanlah pintu-pintu kemurahan-Mu\""
+        },
+        {
+            "id": 11,
+            "title": "DOA SELAMAT DUNIA AKHIRAT",
+            "doa_arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّار",
+            "doa_latin": "Rabbanā, ātinā fid dunyā hasanah, wa fil ākhirati hasanah, wa qinā 'adzāban nār",
+            "meaning": "\"Tuhan kami, berikan kami kebaikan di dunia dan kebaikan di akhirat. Lindungilah kami dari siksa neraka.\""
+        }
+    ],
+    "adab_adab": [
+        {
+            "id": 0,
+            "title": "ADAB KETIKA BELAJAR",
+            "content": [
+                "Niat belajar untuk mencari ridha Allah SWT.",
+                "Membaca doa ketika sebelum dan sesudah belajar.",
+                "Konsentrasi dan tidak main-main saat belajar.",
+                "Fokuskan pandangan pada buku atau sesuatu yang sedang dipelajari."
+            ]
+        },
+        {
+            "id": 1,
+            "title": "ADAB KETIKA BERDOA",
+            "content": [
+                "Berdoa hanya kepada Allah SWT. dan yakin akan dikabulkan.",
+                "Mengangkat tangan dan mengusapkannya ke wajah setelah selesai.",
+                "Berdoa dengan khusyuk dan menggunakan suara lembut.",
+                "Diawali dengan menyanjung Allah SWT. dan shalawat nabi.",
+                "Tidak berdoa untuk hal yang buruk."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "ADAB KETIKA MAKAN",
+            "content": [
+                "Mencuci tangan hingga bersih.",
+                "Membaca doa sebelum makan.",
+                "Menggunakan tangan kanan.",
+                "Tidak berbicara ketika sedang makan.",
+                "Berhenti ketika sudah kenyang.",
+                "Mengucapkan hamdallah dan doa setelah makan."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "ADAB KETIKA DI MASJID",
+            "content": [
+                "Niat karena Allah SWT.",
+                "Berpakaian rapi ketika hendak menuju masjid.",
+                "Berdoa sebelum dan sesudah dari masjid.",
+                "Mendahulukan kaki kanan ketika masuk dan kaki kiri ketika keluar masjid.",
+                "Shalat Tahiyatul Masjid.",
+                "Menjaga sikap dan lisan selama di masjid."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "ADAB KEPADA ORANG TUA DAN GURU",
+            "content": [
+                "Berkata halus dan sopan.",
+                "Mendoakan kebaikan kepada mereka.",
+                "Melaksanakan nasihat dan perintahnya selama tidak keluar dari syariat islam.",
+                "Menjaga nama baik orang tua.",
+                "Berbuat baik kepada orang tua dan guru.",
+                "Merendahkan diri ketika berhadapan dengan orang tua dan guru."
+            ]
+        }
+    ],
+    "hikmah": [
+        {
+            "id": 0,
+            "title": "HIKMAH BERIMAN KEPADA HARI AKHIR",
+            "content": [
+                "Meningkatkan ketakwaan kepada Allah SWT.",
+                "Selalu beramal saleh.",
+                "Berbuat baik kepada sesama.",
+                "Muncul rasa takut untuk berbuat maksiat."
+            ]
+        },
+        {
+            "id": 1,
+            "title": "HIKMAH BERBAKTI KEPADA ORANG TUA",
+            "content": [
+                "Berpahala jihad.",
+                "Memperoleh ampunan Allah SWT.",
+                "Taat kepada orang tua merupakan bentuk ketaatan kepada Allah SWT",
+                "Keridhaan Allah ada pada keridhaan orang tua.",
+                "Berbakti kepada orang tua dapat menghilangkan kesulitan yang sedang dialami dengan cara bertawasul.",
+                "Diluaskan rezeki dan dipanjangkan umurnya."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "HIKMAH BERIMAN KEPADA ALLAH SWT.",
+            "content": [
+                "Hati menjadi tenang.",
+                "Mendapat bimbingan dari Allah SWT.",
+                "Mempunyai rasa kasih sayang yang tinggi.",
+                "Diampuni dosa dan mendapat pahala besar."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "HIKMAH BERIMAN KEPADA RASUL ALLAH SWT.",
+            "content": [
+                "Menyempurnakan iman.",
+                "Memiliki teladan dan contoh dalam hidup.",
+                "Terdorong berperilaku dan bersikap baik.",
+                "Mencintai para Rasul dengan mengikuti dan mengamalkan ajarannya dalam kehidupan sehari-hari.",
+                "Menyadarkan bahwa manusia diciptakan Allah SWT."
+            ]
+        }
+    ]
+}
