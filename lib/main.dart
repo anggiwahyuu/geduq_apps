@@ -32,10 +32,8 @@ void main() async {
 
   Get.put(AudioController());
 
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.landscapeRight,
-    DeviceOrientation.landscapeLeft
-  ]);
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.landscapeRight, DeviceOrientation.landscapeLeft]);
 
   SystemChrome.setEnabledSystemUIMode(
     SystemUiMode.manual,
@@ -68,13 +66,19 @@ class MyApp extends StatelessWidget {
           GetPage(name: "/home", page: () => HomeView()),
           GetPage(name: "/about", page: () => AboutView()),
           GetPage(name: "/stage_select", page: () => StageSelect()),
-          GetPage(name: "/gameplay_sambung_ayat", page: () => GameplaySambungAyat()),
-          GetPage(name: "/gameplay_tebak_arti", page: () => GameplayTebakArtiSurah()),
-          GetPage(name: "/gameplay_nama_surat_dari_ayat", page: () => GameplayTebakSurah()),
-          GetPage(name: "/gameplay_susun_ayat", page: () => GameplaySusunAyat()),
+          GetPage(
+              name: "/gameplay_sambung_ayat",
+              page: () => GameplaySambungAyat()),
+          GetPage(
+              name: "/gameplay_tebak_arti",
+              page: () => GameplayTebakArtiSurah()),
+          GetPage(
+              name: "/gameplay_nama_surat_dari_ayat",
+              page: () => GameplayTebakSurah()),
+          GetPage(
+              name: "/gameplay_susun_ayat", page: () => GameplaySusunAyat()),
           GetPage(name: "/gameplay_arti_ayat", page: () => GameplayArtiAyat()),
           GetPage(name: "/enter_house", page: () => EnterHouse()),
-
           GetPage(name: "/materi_house_1", page: () => MateriOne()),
           GetPage(name: "/materi_house_2", page: () => MateriTwo()),
           GetPage(name: "/materi_house_3", page: () => MateriThree()),

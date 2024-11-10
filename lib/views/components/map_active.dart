@@ -27,31 +27,27 @@ class MapActive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      onPressed: () {
-        Get.toNamed(getRandomRoute(), arguments: level);
-      }, 
-      icon: Column(
-        children: [
-          Container(
-            width: 14.w,
-            height: 33.h,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: controller.character.value == "Albab" 
-                  ? const AssetImage("assets/images/albab_main.png") 
-                  : const AssetImage("assets/images/ulil_main.png"),
-                fit: BoxFit.fill
-              )
+        onPressed: () {
+          Get.toNamed(getRandomRoute(), arguments: level);
+        },
+        icon: Column(
+          children: [
+            Container(
+              width: 14.w,
+              height: 14.w,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: controller.character.value == "Albab"
+                          ? const AssetImage("assets/images/albab_main.png")
+                          : const AssetImage("assets/images/ulil_main.png"),
+                      fit: BoxFit.fill)),
             ),
-          ),
-
-          const Icon(
-            Icons.location_on, 
-            color: Colors.red,
-            size: 40,
-          ),
-        ],
-      )
-    );
+            Icon(
+              Icons.location_on,
+              color: Colors.red,
+              size: 18.w,
+            ),
+          ],
+        ));
   }
 }

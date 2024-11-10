@@ -1,4 +1,4 @@
-package com.example.geduq_apps
+package com.semarmendemdev.geduq_apps
 
 import io.flutter.embedding.android.FlutterActivity
 

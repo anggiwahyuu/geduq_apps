@@ -21,7 +21,8 @@ Petunjuk Permainan:
 7. Peserta didik akan mendapatkan soal berbeda setiap kali melakukan permainan baru setelah sampai akhir perjalanan.
 ''';
 
-  late String capaianPembelajaran = "Peserta didik mampu membaca, menghafal, menulis dan memahami surah-surah pendek Al-Fatihah, Al-Ikhlas, An-Nas, Al-Falaq, Al-Asr, An-Nasr, Al-Kausar, Al-Alaq, At-Tin, Al-Ma'un, Ad-Dhuha. \n";
+  late String capaianPembelajaran =
+      "Peserta didik mampu membaca, menghafal, menulis dan memahami surah-surah pendek Al-Fatihah, Al-Ikhlas, An-Nas, Al-Falaq, Al-Asr, An-Nasr, Al-Kausar, Al-Alaq, At-Tin, Al-Ma'un, Ad-Dhuha. \n";
 
   late String ucapanTerimakasih = '''
     Pengembangan aplikasi GEDUQ ini tidak terlepas dari bimbingan, dorongan, dan bantuan dari berbagai pihak yang terlibat. Peneliti ucapkan terima kasih kepada:
@@ -30,6 +31,7 @@ Petunjuk Permainan:
     3. Dr. Drs. Asmuni, MA selaku Dekan Fakultas Ilmu Agama Islam dan jajarannya.
     4. DPPM Universitas Islam Indonesia.
     5. Dr. Mohamad Joko Susilo, S.Pd., M.Pd. selaku dosen pembimbing.
-    6. Nada Nurfadhilah, S.Pd. selaku peneliti.
+    6. Syaikh Mishary Rashid Alafasy sebagai Qori pengisi suara (https://everyayah.com/).
+    7. Nada Nurfadhilah, S.Pd. selaku peneliti.
 ''';
 }

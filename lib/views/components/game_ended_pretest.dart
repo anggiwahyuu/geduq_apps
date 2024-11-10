@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geduq_apps/controllers/audio_controllers.dart';
 import 'package:geduq_apps/controllers/game_controller.dart';
 import 'package:geduq_apps/database/user_controller.dart';
@@ -23,22 +24,21 @@ class GameEndedPreTest extends StatelessWidget {
         return Stack(
           children: [
             Container(
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
-              decoration: const BoxDecoration(
-                color: Color.fromARGB(95, 0, 0, 0)
-              ),
+              width: 1.sw,
+              height: 1.sh,
+              decoration:
+                  const BoxDecoration(color: Color.fromARGB(95, 0, 0, 0)),
               child: Center(
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 1.8,
-                  height: MediaQuery.of(context).size.height,
-                  padding: const EdgeInsets.only(left: 80, right: 80, top: 90, bottom: 20),
+                  width: 1.sw * 0.5,
+                  height: 1.sh,
+                  padding: EdgeInsets.only(
+                      left: 30.w, right: 30.w, top: 40.w, bottom: 10.w),
                   decoration: const BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage("assets/images/background_victory.png"),
-                      fit: BoxFit.fill
-                    )
-                  ),
+                      image: DecorationImage(
+                          image: AssetImage(
+                              "assets/images/background_victory.png"),
+                          fit: BoxFit.fill)),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -47,125 +47,119 @@ class GameEndedPreTest extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            width: 60,
-                            height: 60,
+                            width: 25.w,
+                            height: 25.w,
                             decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: controller.character.value == "Albab" 
-                                  ? const AssetImage("assets/images/albab_main.png") 
-                                  : const AssetImage("assets/images/ulil_main.png"),
-                                fit: BoxFit.cover
-                              )
-                            ),
+                                image: DecorationImage(
+                                    image: controller.character.value == "Albab"
+                                        ? const AssetImage(
+                                            "assets/images/albab_main.png")
+                                        : const AssetImage(
+                                            "assets/images/ulil_main.png"),
+                                    fit: BoxFit.cover)),
                           ),
                           Column(
                             children: [
                               Text(
                                 controller.username.value.text,
-                                style: const TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold
-                                ),
+                                style: TextStyle(
+                                    fontSize: 10.sp,
+                                    fontWeight: FontWeight.bold),
                               ),
-            
                               Container(
-                                width: 120,
+                                width: 50.w,
                                 height: 1,
                                 color: Colors.black,
-                                margin: const EdgeInsets.only(top: 4),
+                                margin: EdgeInsets.only(top: 2.w),
                               ),
                             ],
                           ),
-                          const SizedBox(
-                            width: 60,
-                            height: 60,
+                          SizedBox(
+                            width: 25.w,
+                            height: 25.w,
                           )
                         ],
                       ),
-            
                       Container(
-                        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+                        padding: EdgeInsets.symmetric(
+                            vertical: 4.w, horizontal: 18.w),
                         decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black
-                          ),
-                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.black),
+                          borderRadius: BorderRadius.circular(8.r),
                         ),
                         child: Column(
                           children: [
-                            const Text("SCORE", style: TextStyle(fontSize: 17),),
-                            Text("${controller.scorePreTest.value} / 100", style: const TextStyle(fontSize: 17))
+                            Text(
+                              "SCORE",
+                              style: TextStyle(fontSize: 8.sp),
+                            ),
+                            Text("${controller.scorePreTest.value} / 100",
+                                style: TextStyle(fontSize: 8.sp))
                           ],
                         ),
                       ),
-            
                       Card(
                         color: Colors.white,
                         shape: RoundedRectangleBorder(
-                          side: const BorderSide(
-                            color: Color.fromARGB(255, 0, 0, 0),
-                            width: 1,
-                          ),
-                          borderRadius: BorderRadius.circular(5)
-                        ),
+                            side: const BorderSide(
+                              color: Color.fromARGB(255, 0, 0, 0),
+                              width: 1,
+                            ),
+                            borderRadius: BorderRadius.circular(5.r)),
                         child: SizedBox(
-                          width: 200,
-                          height: 70,
+                          width: 100.w,
+                          height: 30.w,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Expanded(
                                 child: IconButton(
-                                  onPressed: () {            
-                                    isHistoryShown.value = true;
-                                  }, 
-                                  icon: const Icon(
-                                    Icons.history,
-                                    size: 50,
-                                    color: Colors.black,
-                                  )
-                                ),
+                                    onPressed: () {
+                                      isHistoryShown.value = true;
+                                    },
+                                    icon: Icon(
+                                      Icons.note,
+                                      size: 22.w,
+                                      color: Colors.black,
+                                    )),
                               ),
-
-                              const VerticalDivider(
+                              VerticalDivider(
                                 width: 4,
                                 color: Colors.black,
                                 thickness: 2,
-                                indent: 10,
-                                endIndent: 10,
+                                indent: 3.w,
+                                endIndent: 3.w,
                               ),
-
                               Expanded(
                                 child: IconButton(
-                                  onPressed: () async {                                    
-                                    controller.character.value = "";
-                                    controller.currentUsername.value = "";
-                                    controller.username.value.text = "";
-            
-                                    controller.levelOneIsDone.value = false;
-                                    controller.levelTwoIsDone.value = false;
-                                    controller.levelThreeIsDone.value = false;
-                                    controller.levelFourIsDone.value = false;
-                                    controller.levelFiveIsDone.value = false;
-                                    controller.levelSixIsDone.value = false;
-                                    controller.levelSevenIsDone.value = false;
-                                    controller.levelEightIsDone.value = false;
-                                    controller.levelNineIsDone.value = false;
-                                    controller.levelTenIsDone.value = false;
-            
-                                    controller.scorePreTest.value = 0;
-                                    controller.lifePoint.value = 5;
-                                    controller.currentLevel.value = 1;
-                                    controller.totalTimePreTest.value = 0;
-            
-                                    Get.offAllNamed("/home");
-                                  }, 
-                                  icon: const Icon(
-                                    Icons.home, 
-                                    size: 50, 
-                                    color: Colors.black,
-                                  )
-                                ),
+                                    onPressed: () async {
+                                      controller.character.value = "";
+                                      controller.currentUsername.value = "";
+                                      controller.username.value.text = "";
+
+                                      controller.levelOneIsDone.value = false;
+                                      controller.levelTwoIsDone.value = false;
+                                      controller.levelThreeIsDone.value = false;
+                                      controller.levelFourIsDone.value = false;
+                                      controller.levelFiveIsDone.value = false;
+                                      controller.levelSixIsDone.value = false;
+                                      controller.levelSevenIsDone.value = false;
+                                      controller.levelEightIsDone.value = false;
+                                      controller.levelNineIsDone.value = false;
+                                      controller.levelTenIsDone.value = false;
+
+                                      controller.scorePreTest.value = 0;
+                                      controller.lifePoint.value = 5;
+                                      controller.currentLevel.value = 1;
+                                      controller.totalTimePreTest.value = 0;
+
+                                      Get.offAllNamed("/home");
+                                    },
+                                    icon: Icon(
+                                      Icons.home,
+                                      size: 22.w,
+                                      color: Colors.black,
+                                    )),
                               ),
                             ],
                           ),
@@ -176,7 +170,6 @@ class GameEndedPreTest extends StatelessWidget {
                 ),
               ),
             ),
-
             HistoryGame(isVisible: isHistoryShown)
           ],
         );

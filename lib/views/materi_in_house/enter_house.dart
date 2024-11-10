@@ -49,80 +49,79 @@ class EnterHouse extends StatelessWidget {
             onPressed: () {
               controller.pages.value = "";
               Get.back();
-      
+
               Future.delayed(const Duration(seconds: 1), () {
                 audioController.playBackgroundSound(0.5);
               });
-            }, 
-            icon: const Icon(
-              Icons.home, 
+            },
+            icon: Icon(
+              Icons.home,
               color: Colors.white,
-              size: 50,
+              size: 25.w,
             ),
           ),
         ),
         body: Stack(
           children: [
             const BackgroundGameTwo(),
-      
             Positioned(
-              right: 0.w,
-              top: 70.h,
-              child: SizedBox(
-                width: 250.w,
-                height: 180.h,
-                child: SingleChildScrollView(
-                  child: Wrap(
-                    alignment: WrapAlignment.center,
-                    spacing: 5.0.w,
-                    runSpacing: 10.0.h,
-                    children: List.generate(materiPage.length, (index) {
-                      return Obx(() {
-                        List<bool> isOpened = [
-                          controller.materiOneIsOpen.value,
-                          controller.materiTwoIsOpen.value,
-                          controller.materiThreeIsOpen.value,
-                          controller.materiFourIsOpen.value,
-                          controller.materiFiveIsOpen.value,
-                          controller.materiSixIsOpen.value,
-                          controller.materiSevenIsOpen.value,
-                          controller.materiEightIsOpen.value,
-                          controller.materiNineIsOpen.value,
-                          controller.materiTenIsOpen.value,
-                          controller.materiElevenIsOpen.value
-                        ];
-                  
-                        return InkWell(
-                          child: Container(
-                            width: 50.w,
-                            height: 80.h,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: isOpened[index] == false ? const AssetImage("assets/images/materi_close.png") : const AssetImage("assets/images/materi_opened.png"),
-                                fit: BoxFit.fill
-                              )
-                            ),
-                            child: Center(
-                              child: Text(
-                                "${index + 1}",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18.sp
+                right: 0.w,
+                top: 70.h,
+                child: SizedBox(
+                  width: 250.w,
+                  height: 180.h,
+                  child: SingleChildScrollView(
+                    child: Wrap(
+                      alignment: WrapAlignment.center,
+                      spacing: 5.0.w,
+                      runSpacing: 5.0.w,
+                      children: List.generate(materiPage.length, (index) {
+                        return Obx(() {
+                          List<bool> isOpened = [
+                            controller.materiOneIsOpen.value,
+                            controller.materiTwoIsOpen.value,
+                            controller.materiThreeIsOpen.value,
+                            controller.materiFourIsOpen.value,
+                            controller.materiFiveIsOpen.value,
+                            controller.materiSixIsOpen.value,
+                            controller.materiSevenIsOpen.value,
+                            controller.materiEightIsOpen.value,
+                            controller.materiNineIsOpen.value,
+                            controller.materiTenIsOpen.value,
+                            controller.materiElevenIsOpen.value
+                          ];
+
+                          return InkWell(
+                            child: Container(
+                              width: 50.w,
+                              height: 35.w,
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                      image: isOpened[index] == false
+                                          ? const AssetImage(
+                                              "assets/images/materi_close.png")
+                                          : const AssetImage(
+                                              "assets/images/materi_opened.png"),
+                                      fit: BoxFit.fill)),
+                              child: Center(
+                                child: Text(
+                                  "${index + 1}",
+                                  style: TextStyle(
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18.sp),
                                 ),
                               ),
                             ),
-                          ),
-                          onTap: () {
-                            Get.toNamed(materiPage[index]);
-                          },
-                        );
-                      });
-                    }),
+                            onTap: () {
+                              Get.toNamed(materiPage[index]);
+                            },
+                          );
+                        });
+                      }),
+                    ),
                   ),
-                ),
-              )
-            ),
+                )),
           ],
         ),
       ),

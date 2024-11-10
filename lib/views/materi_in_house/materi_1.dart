@@ -11,7 +11,8 @@ class MateriOne extends StatelessWidget {
 
   final GameController controller = Get.put(GameController());
 
-  final AyatMateriController ayatMateriController = Get.put(AyatMateriController());
+  final AyatMateriController ayatMateriController =
+      Get.put(AyatMateriController());
 
   final audioController = Get.find<AudioController>();
 
@@ -23,37 +24,30 @@ class MateriOne extends StatelessWidget {
       body: Stack(
         children: [
           const BackgroundGameThree(),
-
           Positioned(
             top: 35.h,
             left: 37.w,
             child: Text(
               "1",
-              style: TextStyle(
-                fontSize: 10.sp,
-                fontWeight: FontWeight.bold
-              ),
+              style: TextStyle(fontSize: 10.sp, fontWeight: FontWeight.bold),
             ),
           ),
-
           Align(
             alignment: Alignment.center,
             child: SizedBox(
               width: 260.w,
-              height: 250.h,
+              height: 1.sh * 0.7,
               child: SingleChildScrollView(
                 child: Column(
                   children: [
                     Text(
                       "Membaca QS. Al-Fatihah",
                       style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 12.sp
-                      ),
+                          fontWeight: FontWeight.bold, fontSize: 12.sp),
                     ),
-
-                    const SizedBox(height: 10,),
-
+                    const SizedBox(
+                      height: 10,
+                    ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -65,25 +59,23 @@ class MateriOne extends StatelessWidget {
                               Transform.flip(
                                 flipX: true,
                                 child: IconButton(
-                                  onPressed: () async {
-                                    await audioController.playSound("sounds/taawudz.mp3");
-                                  }, 
-                                  icon: Icon(
-                                    Icons.volume_up,
-                                    size: 18.dm,
-                                  )
-                                ),
+                                    onPressed: () async {
+                                      await audioController
+                                          .playSound("sounds/taawudz.mp3");
+                                    },
+                                    icon: Icon(
+                                      Icons.volume_up,
+                                      size: 18.dm,
+                                    )),
                               ),
-                            
-                              SizedBox(width: 5.w,),
-
+                              SizedBox(
+                                width: 5.w,
+                              ),
                               Flexible(
                                 child: SizedBox(
                                   child: Text(
                                     "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
-                                    style: TextStyle(
-                                      fontSize: 13.sp
-                                    ),
+                                    style: TextStyle(fontSize: 13.sp),
                                     textAlign: TextAlign.end,
                                   ),
                                 ),
@@ -91,63 +83,62 @@ class MateriOne extends StatelessWidget {
                             ],
                           ),
                         ),
-                        
                         Text(
                           "A'udzubillaahi minasy syaithaanir rajiim",
                           textAlign: TextAlign.justify,
                           style: TextStyle(
-                            fontSize: 7.sp,
-                            fontStyle: FontStyle.italic
-                          ),
+                              fontSize: 7.sp, fontStyle: FontStyle.italic),
                         ),
-                        
                         Text(
                           "Aku berlindung kepada Allah dari godaan setan yang terkutuk",
                           textAlign: TextAlign.justify,
-                          style: TextStyle(
-                            fontSize: 7.sp
-                          ),
+                          style: TextStyle(fontSize: 7.sp),
                         ),
-                        
-                        SizedBox(height: 12.h,),
-
+                        SizedBox(
+                          height: 12.h,
+                        ),
                         Obx(() {
                           if (ayatMateriController.itemsAlFatihah.isNotEmpty) {
-                            final items = ayatMateriController.itemsAlFatihah[0];
+                            final items =
+                                ayatMateriController.itemsAlFatihah[0];
 
                             return SizedBox(
                               child: Column(
-                                children: List.generate(items["ayat_arabic"].length, (index) {
+                                children: List.generate(
+                                    items["ayat_arabic"].length, (index) {
                                   return Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Align(
                                         alignment: Alignment.centerRight,
                                         child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.end,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.end,
                                           children: [
                                             Transform.flip(
                                               flipX: true,
                                               child: IconButton(
-                                                onPressed: () async {
-                                                  await audioController.playSound(items["sound"][index]);
-                                                }, 
-                                                icon: Icon(
-                                                  Icons.volume_up,
-                                                  size: 18.dm,
-                                                )
-                                              ),
+                                                  onPressed: () async {
+                                                    await audioController
+                                                        .playSound(
+                                                            items["sound"]
+                                                                [index]);
+                                                  },
+                                                  icon: Icon(
+                                                    Icons.volume_up,
+                                                    size: 18.dm,
+                                                  )),
                                             ),
-                                          
-                                            SizedBox(width: 5.w,),
-
+                                            SizedBox(
+                                              width: 5.w,
+                                            ),
                                             Flexible(
                                               child: SizedBox(
                                                 child: Text(
                                                   items["ayat_arabic"][index],
                                                   style: TextStyle(
-                                                    fontSize: 13.sp
-                                                  ),
+                                                      fontSize: 13.sp),
                                                   textAlign: TextAlign.end,
                                                 ),
                                               ),
@@ -155,25 +146,21 @@ class MateriOne extends StatelessWidget {
                                           ],
                                         ),
                                       ),
-
                                       Text(
                                         items["ayat_latin"][index],
                                         textAlign: TextAlign.justify,
                                         style: TextStyle(
-                                          fontSize: 7.sp,
-                                          fontStyle: FontStyle.italic
-                                        ),
+                                            fontSize: 7.sp,
+                                            fontStyle: FontStyle.italic),
                                       ),
-                                      
                                       Text(
                                         items["arti"][index],
                                         textAlign: TextAlign.justify,
-                                        style: TextStyle(
-                                          fontSize: 7.sp
-                                        ),
+                                        style: TextStyle(fontSize: 7.sp),
                                       ),
-                                      
-                                      SizedBox(height: 12.h,),
+                                      SizedBox(
+                                        height: 12.h,
+                                      ),
                                     ],
                                   );
                                 }),
@@ -187,7 +174,6 @@ class MateriOne extends StatelessWidget {
                         })
                       ],
                     ),
-
                     Align(
                       alignment: Alignment.bottomRight,
                       child: Card(
@@ -200,10 +186,9 @@ class MateriOne extends StatelessWidget {
                               child: Text(
                                 "Saya Mengerti",
                                 style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 7.sp,
-                                  color: Colors.white
-                                ),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 7.sp,
+                                    color: Colors.white),
                               ),
                             ),
                           ),

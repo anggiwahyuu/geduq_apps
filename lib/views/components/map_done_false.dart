@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class MapDoneFalse extends StatelessWidget {
@@ -9,30 +10,34 @@ class MapDoneFalse extends StatelessWidget {
     return IconButton(
       onPressed: () {
         AlertDialog alert = AlertDialog(
-          title:  const Text("Peringatan", style: TextStyle(fontWeight: FontWeight.bold),),
+          title: const Text(
+            "Peringatan",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
           content: const SizedBox(
-            child: Text("Anda sudah menyelesaikan level ini. Silakan kerjakan level selanjutnya"),
+            child: Text(
+                "Anda sudah menyelesaikan level ini. Silakan kerjakan level selanjutnya"),
           ),
           actions: [
             TextButton(
-              onPressed: () => Get.back(), 
+              onPressed: () => Get.back(),
               child: const Text("OK"),
             ),
           ],
         );
         showDialog(context: context, builder: (context) => alert);
-      }, 
-      icon: const Stack(
+      },
+      icon: Stack(
         children: [
           Icon(
-            Icons.location_on, 
+            Icons.location_on,
             color: Colors.red,
-            size: 40,
+            size: 18.w,
           ),
           Icon(
-            Icons.clear, 
+            Icons.clear,
             color: Colors.black,
-            size: 40,
+            size: 18.w,
           )
         ],
       ),
