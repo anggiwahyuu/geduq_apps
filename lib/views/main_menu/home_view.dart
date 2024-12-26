@@ -188,7 +188,7 @@ class HomeView extends StatelessWidget {
               ),
             ),
             Positioned(
-              right: 107.w,
+              right: 100.w,
               bottom: 52.w,
               child: IconButton(
                   onPressed: () {
