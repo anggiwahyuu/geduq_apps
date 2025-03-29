@@ -1,0 +1,2 @@
+/home/anggiwahyuu/MyProject/MyPrivateProject/Mobile/geduq_apps/android/app/.cxx/Debug/1i2fc5dm/x86/CMakeFiles/edit_cache.dir
+/home/anggiwahyuu/MyProject/MyPrivateProject/Mobile/geduq_apps/android/app/.cxx/Debug/1i2fc5dm/x86/CMakeFiles/rebuild_cache.dir

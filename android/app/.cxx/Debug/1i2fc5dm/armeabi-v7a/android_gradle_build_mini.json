@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/anggiwahyuu/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/anggiwahyuu/snap/android-studio/sdk-manager/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/anggiwahyuu/MyProject/MyPrivateProject/Mobile/geduq_apps/android/app/.cxx/Debug/1i2fc5dm/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/anggiwahyuu/snap/android-studio/sdk-manager/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/anggiwahyuu/MyProject/MyPrivateProject/Mobile/geduq_apps/android/app/.cxx/Debug/1i2fc5dm/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
