@@ -1,5 +1,5 @@
 {
-    "al_fatihah": [
+    "surah": [
         {
             "id": 0,
             "surah": "Al-Fatihah",
@@ -39,9 +39,7 @@
                 "Bimbinglah kami ke jalan yang lurus,",
                 "(yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) orang-orang yang sesat."
             ]
-        }
-    ],
-    "ad_dhuha": [
+        },
         {
             "id": 1,
             "surah": "Ad-Dhuha",
@@ -97,9 +95,7 @@
                 "Terhadap orang yang meminta-minta, janganlah engkau menghardik.",
                 "Terhadap nikmat Tuhanmu, nyatakanlah (dengan bersyukur)."
             ]
-        }
-    ],
-    "at_tin": [
+        },
         {
             "id": 2,
             "surah": "At-Tin",
@@ -143,9 +139,7 @@
                 "Maka, apa alasanmu (wahai orang kafir) mendustakan hari Pembalasan setelah (adanya bukti-bukti) itu?",
                 "Bukankah Allah hakim yang paling adil?"
             ]
-        }
-    ],
-    "al_alaq": [
+        },
         {
             "id": 3,
             "surah": "Al-'Alaq'",
@@ -233,9 +227,7 @@
                 "Kelak Kami akan memanggil (Malaikat) Zabaniah (penyiksa orang-orang yang berdosa).",
                 "Sekali-kali tidak! Janganlah patuh kepadanya, (tetapi) sujud dan mendekatlah (kepada Allah)."
             ]
-        }
-    ],
-    "al_asr": [
+        },
         {
             "id": 4,
             "surah": "Al-Asr",
@@ -259,9 +251,7 @@
                 "sesungguhnya manusia benar-benar berada dalam kerugian,",
                 "kecuali orang-orang yang beriman dan beramal saleh serta saling menasihati untuk kebenaran dan kesabaran."
             ]
-        }
-    ],
-    "al_maun": [
+        },
         {
             "id": 5,
             "surah": "Al-Ma'un",
@@ -301,9 +291,7 @@
                 "yang berbuat riya, ",
                 "dan enggan (memberi) bantuan."
             ]
-        }
-    ],
-    "al_kautsar": [
+        },
         {
             "id": 6,
             "surah": "Al-Kautsar",
@@ -327,9 +315,7 @@
                 "Maka, laksanakanlah salat karena Tuhanmu dan berkurbanlah!",
                 "Sesungguhnya orang yang membencimu, dialah yang terputus (dari rahmat Allah)."
             ]
-        }
-    ],
-    "an_nasr": [
+        },
         {
             "id": 7,
             "surah": "An-Nasr",
@@ -353,9 +339,7 @@
                 "dan engkau melihat manusia berbondong-bondong masuk agama Allah,",
                 "bertasbihlah dengan memuji Tuhanmu dan mohonlah ampun kepada-Nya. Sesungguhnya Dia Maha Penerima tobat."
             ]
-        }
-    ],
-    "al_ikhlas": [
+        },
         {
             "id": 8,
             "surah": "Al-Ikhlas",
@@ -383,9 +367,7 @@
                 "Dia tidak beranak dan tidak pula diperanakkan",
                 "serta tidak ada sesuatu pun yang setara dengan-Nya.”"
             ]
-        }
-    ],
-    "al_falaq": [
+        },
         {
             "id": 9,
             "surah": "Al-Falaq",
@@ -417,9 +399,7 @@
                 "dari kejahatan perempuan-perempuan (penyihir) yang meniup pada buhul-buhul (talinya),",
                 "dan dari kejahatan orang yang dengki apabila dia dengki.”"
             ]
-        }
-    ],
-    "an_naas": [
+        },
         {
             "id": 10,
             "surah": "An-Naas",

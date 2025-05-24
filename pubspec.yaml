@@ -1,7 +1,7 @@
 name: geduq_apps
 description: "A new Flutter project."
 publish_to: "none"
-version: 1.0.0+6
+version: 1.0.0+7
 
 environment:
   sdk: ^3.5.2
@@ -24,7 +24,7 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/images/logo_apk.png"
-  min_sdk_android: 21 
+  min_sdk_android: 21
   web:
     generate: true
     image_path: "assets/images/logo_apk.png"
@@ -41,7 +41,7 @@ flutter_launcher_icons:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   change_app_package_name: ^1.4.0
 
 flutter:
