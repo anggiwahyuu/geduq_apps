@@ -122,7 +122,7 @@ class GameEndedPreTest extends StatelessWidget {
                                     final homeCtrl = Get.find<HomeController>();
                                     homeCtrl.resetAll();
 
-                                    Get.offAllNamed(Routes.HOME);
+                                    Get.offNamed(Routes.HOME);
                                   },
                                   icon: Icon(
                                     Icons.home,
@@ -140,7 +140,6 @@ class GameEndedPreTest extends StatelessWidget {
                 ),
               ),
             ),
-            // HistoryGame(isVisible: isHistoryShown)
           ],
         );
       } else {

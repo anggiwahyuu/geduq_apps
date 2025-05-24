@@ -9,19 +9,16 @@ import 'package:get/get.dart';
 class MateriView extends GetView<MateriController> {
   const MateriView({super.key});
 
-  // final gameCtrl = Get.find<GameController>();
-
-  // final audioController = Get.find<AudioController>();
-
   @override
   Widget build(BuildContext context) {
     return GetBuilder<AudioController>(builder: (audio) {
-      audio.pauseBackgroundSound();
       return GetBuilder<MateriController>(builder: (_) {
         return PopScope(
           canPop: false,
           onPopInvokedWithResult: (didPop, result) {
             Get.back();
+
+            _.setIsCanPauseBackgroundAudio(false);
 
             Future.delayed(const Duration(seconds: 1), () {
               audio.playBackgroundSound(0.5);
@@ -34,8 +31,9 @@ class MateriView extends GetView<MateriController> {
               backgroundColor: Colors.transparent,
               leading: IconButton(
                 onPressed: () {
-                  // gameCtrl.pages = "";
                   Get.back();
+
+                  _.setIsCanPauseBackgroundAudio(false);
 
                   Future.delayed(const Duration(seconds: 1), () {
                     audio.playBackgroundSound(0.5);

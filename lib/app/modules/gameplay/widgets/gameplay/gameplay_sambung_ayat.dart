@@ -59,7 +59,7 @@ class GameplaySambungAyat extends StatelessWidget {
                                 final homeCtrl = Get.find<HomeController>();
                                 homeCtrl.resetAll();
 
-                                Get.offAllNamed(Routes.HOME);
+                                Get.offNamed(Routes.HOME);
 
                                 Future.delayed(const Duration(seconds: 1), () {
                                   audio.playBackgroundSound(0.5);

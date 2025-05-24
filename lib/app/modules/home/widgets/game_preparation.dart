@@ -7,7 +7,9 @@ import 'package:geduq_apps/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 class GamePreparation extends StatelessWidget {
-  const GamePreparation({super.key});
+  GamePreparation({super.key});
+
+  final formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -113,7 +115,7 @@ class GamePreparation extends StatelessWidget {
                         ),
                       ),
                       Form(
-                        key: _.formKey,
+                        key: formKey,
                         child: Column(children: [
                           Container(
                             padding: EdgeInsets.symmetric(horizontal: 5.w),
@@ -147,7 +149,7 @@ class GamePreparation extends StatelessWidget {
                                 size: 25.w,
                               ),
                               onTap: () {
-                                if (_.formKey.currentState!.validate()) {
+                                if (formKey.currentState?.validate() ?? false) {
                                   if (_.character == "") {
                                     AlertDialog alert = AlertDialog(
                                       title: const Text(
@@ -199,7 +201,6 @@ class GamePreparation extends StatelessWidget {
                                     }
                                   }
                                 }
-                                return;
                               },
                             ),
                           ),

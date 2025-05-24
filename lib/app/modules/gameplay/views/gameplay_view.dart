@@ -63,7 +63,7 @@ class GameplayView extends GetView<GameplayController> {
                         final homeCtrl = Get.find<HomeController>();
                         homeCtrl.resetAll();
 
-                        Get.offAllNamed(Routes.HOME);
+                        Get.offNamed(Routes.HOME);
                       },
                       child: const Text(
                         "Ya",

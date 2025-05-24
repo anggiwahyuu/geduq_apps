@@ -3,10 +3,17 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:geduq_apps/app/data/model/ayat_response.dart';
+import 'package:geduq_apps/app/modules/home/controllers/home_controller.dart';
 import 'package:geduq_apps/app/modules/materi/widgets/materi_surah_view.dart';
 import 'package:get/get.dart';
 
 class MateriController extends GetxController {
+  final HomeController _homeCtrl = Get.find();
+
+  setIsCanPauseBackgroundAudio(bool value) {
+    _homeCtrl.setIsCanPauseBackgroundAudio(value);
+  }
+
   List<Widget> pagesMateri = [];
 
   List<Widget> materiOpened = [];
