@@ -36,6 +36,11 @@ class AudioController extends GetxController with WidgetsBindingObserver {
     });
   }
 
+  Future<void> stopSound() async {
+    await _audioPlayer.stop();
+    isPlaying = false;
+  }
+
   Future<void> pauseBackgroundSound() async {
     await backgroundPlayer.pause();
   }
