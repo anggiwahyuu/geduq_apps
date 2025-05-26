@@ -314,19 +314,15 @@ class GameplayArtiAyat extends StatelessWidget {
                                           );
                                         }
 
-                                        audio.playBackgroundSound(0.5);
-
                                         main.addStageTebakArtiAyatDone(main.randomPickArtiAyat);
 
                                         main.setAddCurrentLevel();
 
                                         main.setIsCanPauseBackgroundAudio(false);
 
-                                        Get.back();
+                                        audio.playBackgroundSound(0.5);
 
-                                        Future.delayed(Duration.zero).then((value) {
-                                          main.setRandomPickArtiAyat();
-                                        });
+                                        Get.back();
                                       },
                                     ),
                                   ),

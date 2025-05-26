@@ -345,19 +345,15 @@ class GameplaySusunAyat extends StatelessWidget {
                                           );
                                         }
 
-                                        audio.playBackgroundSound(0.5);
-
                                         main.addStageSusunAyatDone(main.randomPickSusunAyat);
 
                                         main.setAddCurrentLevel();
 
                                         main.setIsCanPauseBackgroundAudio(false);
 
-                                        Get.back();
+                                        audio.playBackgroundSound(0.5);
 
-                                        Future.delayed(Duration.zero).then((value) {
-                                          main.setRandomPickSusunAyat();
-                                        });
+                                        Get.back();
                                       },
                                     ),
                                   ),

@@ -2,7 +2,13 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:developer' as dev;
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:geduq_apps/app/globalwidgets/globalslidefrombutton.dart';
+import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_adab.dart';
+import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_doa.dart';
+import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_hikmah.dart';
+import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_ski.dart';
 import 'package:geduq_apps/app/modules/home/controllers/home_controller.dart';
 import 'package:get/get.dart';
 
@@ -75,7 +81,13 @@ class GameplayController extends GetxController {
 
   setAddCurrentLevel() {
     currentLevel++;
-    update();
+
+    if (currentLevel != 1 && currentLevel % 2 != 0 && currentLevel <= 10) {
+      setMateriVisibility(true);
+      setRandomMateri();
+    } else {
+      update();
+    }
   }
 
   resetAll() {
@@ -293,13 +305,6 @@ class GameplayController extends GetxController {
   late int randomPickAdab;
   late int randomPickHikmah;
 
-  bool materiVisibility = false;
-
-  setMateriVisibility(bool value) {
-    materiVisibility = value;
-    update();
-  }
-
   Future<void> readMateriJson() async {
     final response = await rootBundle.loadString("assets/json/materi.json");
     final encoded = utf8.encode(response);
@@ -325,6 +330,35 @@ class GameplayController extends GetxController {
 
     if (itemHikmah.isNotEmpty) {
       randomPickHikmah = Random().nextInt(itemHikmah.length);
+    }
+  }
+
+  bool materiVisibility = false;
+
+  setMateriVisibility(bool value) {
+    materiVisibility = value;
+    update();
+  }
+
+  List<Widget> materiSection = [
+    MateriSKI(),
+    MateriDoa(),
+    MateriAdab(),
+    MateriHikmah(),
+  ];
+
+  int randomMateri = 0;
+
+  setRandomMateri() {
+    randomMateri = Random().nextInt(materiSection.length);
+    update();
+  }
+
+  setInsertMateriShow(BuildContext context) {
+    if (materiVisibility == true) {
+      if (context.mounted) {
+        GlobalSlideFromBottomDialog.show(context: context, child: materiSection[randomMateri]);
+      }
     }
   }
 

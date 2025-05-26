@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geduq_apps/app/data/controller/audio_controllers.dart';
@@ -7,10 +5,6 @@ import 'package:geduq_apps/app/data/utils/image_helper.dart';
 import 'package:geduq_apps/app/globalwidgets/background_game_1.dart';
 import 'package:geduq_apps/app/modules/gameplay/controllers/gameplay_controller.dart';
 import 'package:geduq_apps/app/modules/gameplay/widgets/game_ended/game_ended_pretest.dart';
-import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_adab.dart';
-import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_doa.dart';
-import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_hikmah.dart';
-import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_ski.dart';
 import 'package:geduq_apps/app/modules/home/controllers/home_controller.dart';
 import 'package:geduq_apps/app/routes/app_pages.dart';
 import 'package:geduq_apps/app/modules/gameplay/widgets/maps/map_active.dart';
@@ -25,12 +19,9 @@ class GameplayView extends GetView<GameplayController> {
   @override
   Widget build(BuildContext context) {
     return GetBuilder<GameplayController>(builder: (_) {
-      List<Widget> materiSection = [
-        MateriSKI(isMateriVisible: true.obs),
-        MateriDoa(isMateriVisible: true.obs),
-        MateriAdab(isMateriVisible: true.obs),
-        MateriHikmah(isMateriVisible: true.obs)
-      ];
+      WidgetsBinding.instance.addPostFrameCallback((value) {
+        _.setInsertMateriShow(context);
+      });
 
       return GetBuilder<AudioController>(builder: (audio) {
         return Scaffold(
@@ -221,9 +212,6 @@ class GameplayView extends GetView<GameplayController> {
                                 ? MapActive()
                                 : SizedBox(),
               ),
-              _.currentLevel != 1 && _.currentLevel % 2 != 0 && _.currentLevel <= 10
-                  ? materiSection[Random().nextInt(materiSection.length)]
-                  : const SizedBox(),
               GameEndedPreTest(),
             ],
           ),

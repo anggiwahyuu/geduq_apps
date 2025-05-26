@@ -5,23 +5,21 @@ import 'package:geduq_apps/app/modules/gameplay/controllers/gameplay_controller.
 import 'package:get/get.dart';
 
 class MateriDoa extends StatelessWidget {
-  MateriDoa({super.key, required this.isMateriVisible});
-
-  var isMateriVisible = false.obs;
+  MateriDoa({super.key});
 
   @override
   Widget build(BuildContext context) {
     return GetBuilder<GameplayController>(builder: (_) {
-      return Obx(() {
-        if (_.itemDoa.isNotEmpty) {
-          return Visibility(
-            visible: isMateriVisible.value,
-            child: Container(
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
-              decoration: const BoxDecoration(color: Color.fromARGB(95, 0, 0, 0)),
-              child: Center(
-                child: Container(
+      return Material(
+        color: Colors.transparent,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
                   width: MediaQuery.of(context).size.width / 1.5,
                   height: MediaQuery.of(context).size.height / 1.2,
                   decoration: const BoxDecoration(
@@ -76,8 +74,12 @@ class MateriDoa extends StatelessWidget {
                           alignment: Alignment.bottomRight,
                           child: IconButton(
                               onPressed: () {
-                                isMateriVisible.value = false;
-                                _.readMateriJson();
+                                Navigator.pop(context);
+                                _.setMateriVisibility(false);
+
+                                Future.delayed(Duration(milliseconds: 1000)).then((value) {
+                                  _.readMateriJson();
+                                });
                               },
                               icon: const Icon(
                                 Icons.keyboard_double_arrow_right,
@@ -89,15 +91,11 @@ class MateriDoa extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
+              ],
             ),
-          );
-        } else {
-          return const Center(
-            child: CircularProgressIndicator(),
-          );
-        }
-      });
+          ],
+        ),
+      );
     });
   }
 }

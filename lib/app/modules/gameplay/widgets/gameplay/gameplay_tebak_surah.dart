@@ -1,5 +1,3 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
 import 'package:geduq_apps/app/data/controller/audio_controllers.dart';
 import 'package:geduq_apps/app/data/utils/image_helper.dart';
@@ -313,15 +311,13 @@ class GameplayTebakSurah extends StatelessWidget {
 
                                         main.addStageTebakSurahDone(main.randomPickTebakSurah);
 
-                                        audio.playBackgroundSound(0.5);
-
                                         main.setAddCurrentLevel();
 
-                                        Get.back();
+                                        main.setIsCanPauseBackgroundAudio(false);
 
-                                        Future.delayed(Duration(milliseconds: 200)).then((value) {
-                                          main.setRandomPickTebakSurah();
-                                        });
+                                        audio.playBackgroundSound(0.5);
+
+                                        Get.back();
                                       },
                                     ),
                                   ),

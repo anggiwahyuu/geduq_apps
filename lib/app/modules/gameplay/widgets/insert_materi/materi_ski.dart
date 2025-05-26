@@ -5,29 +5,29 @@ import 'package:geduq_apps/app/modules/gameplay/controllers/gameplay_controller.
 import 'package:get/get.dart';
 
 class MateriSKI extends StatelessWidget {
-  MateriSKI({super.key, required this.isMateriVisible});
+  const MateriSKI({super.key});
 
-  var isMateriVisible = false.obs;
+  // var isMateriVisible = false.obs;
 
   @override
   Widget build(BuildContext context) {
     return GetBuilder<GameplayController>(builder: (_) {
-      return Obx(() {
-        if (_.itemSejarah.isNotEmpty) {
-          return Visibility(
-            visible: isMateriVisible.value,
-            child: Container(
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
-              decoration: const BoxDecoration(color: Color.fromARGB(95, 0, 0, 0)),
-              child: Center(
-                child: Container(
+      return Material(
+        color: Colors.transparent,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
                   width: MediaQuery.of(context).size.width / 1.5,
                   height: MediaQuery.of(context).size.height / 1.2,
                   decoration: const BoxDecoration(
                       color: Color.fromRGBO(255, 225, 136, 1), borderRadius: BorderRadius.all(Radius.circular(50))),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 10.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -49,29 +49,30 @@ class MateriSKI extends StatelessWidget {
                         Align(
                           alignment: Alignment.bottomRight,
                           child: IconButton(
-                              onPressed: () {
-                                isMateriVisible.value = false;
+                            onPressed: () {
+                              Navigator.pop(context);
+                              _.setMateriVisibility(false);
+
+                              Future.delayed(Duration(milliseconds: 1000)).then((value) {
                                 _.readMateriJson();
-                              },
-                              icon: const Icon(
-                                Icons.keyboard_double_arrow_right,
-                                size: 30,
-                                color: Colors.black,
-                              )),
+                              });
+                            },
+                            icon: const Icon(
+                              Icons.keyboard_double_arrow_right,
+                              size: 30,
+                              color: Colors.black,
+                            ),
+                          ),
                         )
                       ],
                     ),
                   ),
                 ),
-              ),
+              ],
             ),
-          );
-        } else {
-          return const Center(
-            child: CircularProgressIndicator(),
-          );
-        }
-      });
+          ],
+        ),
+      );
     });
   }
 }

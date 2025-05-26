@@ -306,19 +306,15 @@ class GameplaySambungAyat extends StatelessWidget {
                                           );
                                         }
 
-                                        audio.playBackgroundSound(0.5);
-
                                         main.addStageSambungAyatDone(main.randomPickSambungAyat);
 
                                         main.setAddCurrentLevel();
 
                                         main.setIsCanPauseBackgroundAudio(false);
 
-                                        Get.back();
+                                        audio.playBackgroundSound(0.5);
 
-                                        Future.delayed(Duration.zero).then((value) {
-                                          main.setRandomPickSambungAyat();
-                                        });
+                                        Get.back();
                                       },
                                     ),
                                   ),

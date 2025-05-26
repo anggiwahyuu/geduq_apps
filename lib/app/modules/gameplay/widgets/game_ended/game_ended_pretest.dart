@@ -117,8 +117,6 @@ class GameEndedPreTest extends StatelessWidget {
                               Expanded(
                                 child: IconButton(
                                   onPressed: () async {
-                                    _.resetAll();
-
                                     final homeCtrl = Get.find<HomeController>();
                                     homeCtrl.resetAll();
 

@@ -32,7 +32,15 @@ class MapActive extends StatelessWidget {
     return GetBuilder<GameplayController>(builder: (_) {
       return GetBuilder<AudioController>(builder: (audio) {
         return IconButton(
-            onPressed: () {
+            onPressed: () async {
+              await Future.delayed(Duration.zero, () {
+                _.setRandomPickArtiAyat();
+                _.setRandomPickSambungAyat();
+                _.setRandomPickSusunAyat();
+                _.setRandomPickTebakArti();
+                _.setRandomPickTebakSurah();
+              });
+
               audio.pauseBackgroundSound();
               _.setIsCanPauseBackgroundAudio(true);
               Get.to(() => getRandomRoute());
