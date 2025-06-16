@@ -171,29 +171,27 @@ class GamePreparation extends StatelessWidget {
                                   } else {
                                     final UserController userCtrl = Get.find();
                                     if (userCtrl.userList.isNotEmpty) {
-                                      for (int i = 0; i < userCtrl.userList.length; i++) {
-                                        if (_.username.text == userCtrl.userList[i].username) {
-                                          AlertDialog alert = AlertDialog(
-                                            title: const Text(
-                                              "Peringatan",
-                                              style: TextStyle(fontWeight: FontWeight.bold),
+                                      if (userCtrl.userList.any((user) => user.username == _.username.text)) {
+                                        AlertDialog alert = AlertDialog(
+                                          title: const Text(
+                                            "Peringatan",
+                                            style: TextStyle(fontWeight: FontWeight.bold),
+                                          ),
+                                          content: const SizedBox(
+                                            child: Text("Username sudah ada. Cobalah menggunakan Username yang lain"),
+                                          ),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () => Get.back(),
+                                              child: const Text("OK"),
                                             ),
-                                            content: const SizedBox(
-                                              child: Text("Username sudah ada. Cobalah menggunakan Username yang lain"),
-                                            ),
-                                            actions: [
-                                              TextButton(
-                                                onPressed: () => Get.back(),
-                                                child: const Text("OK"),
-                                              ),
-                                            ],
-                                          );
+                                          ],
+                                        );
 
-                                          showDialog(context: context, builder: (context) => alert);
-                                        } else {
-                                          _.setCurrentUsername(_.username.text);
-                                          Get.toNamed(Routes.GAMEPLAY);
-                                        }
+                                        showDialog(context: context, builder: (context) => alert);
+                                      } else {
+                                        _.setCurrentUsername(_.username.text);
+                                        Get.toNamed(Routes.GAMEPLAY);
                                       }
                                     } else {
                                       _.setCurrentUsername(_.username.text);

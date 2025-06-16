@@ -16,15 +16,19 @@ class MapActive extends StatelessWidget {
   const MapActive({super.key});
 
   static List<Widget> stagePages = [
-    GameplayArtiAyat(),
-    GameplaySambungAyat(),
     GameplaySusunAyat(),
+    GameplaySambungAyat(),
     GameplayTebakArtiSurah(),
     GameplayTebakSurah(),
   ];
 
+  static List<Widget> stagePages2 = [
+    GameplayArtiAyat(),
+    GameplayTebakSurah(),
+  ];
+
   static Widget getRandomRoute() {
-    return stagePages[Random().nextInt(stagePages.length)];
+    return stagePages2[Random().nextInt(stagePages2.length)];
   }
 
   @override
@@ -34,16 +38,26 @@ class MapActive extends StatelessWidget {
         return IconButton(
             onPressed: () async {
               await Future.delayed(Duration.zero, () {
-                _.setRandomPickArtiAyat();
-                _.setRandomPickSambungAyat();
                 _.setRandomPickSusunAyat();
+                _.setRandomPickSambungAyat();
                 _.setRandomPickTebakArti();
+                _.setRandomPickArtiAyat();
                 _.setRandomPickTebakSurah();
               });
 
               audio.pauseBackgroundSound();
               _.setIsCanPauseBackgroundAudio(true);
-              Get.to(() => getRandomRoute());
+
+              if (_.currentLevel <= 3) {
+                Get.to(() => stagePages[0]);
+              } else if (_.currentLevel > 3 && _.currentLevel <= 6) {
+                Get.to(() => stagePages[1]);
+              } else if (_.currentLevel > 6 && _.currentLevel <= 8) {
+                Get.to(() => stagePages[2]);
+              } else {
+                Get.to(() => stagePages[3]);
+                // Get.to(() => getRandomRoute());
+              }
             },
             icon: Column(
               children: [

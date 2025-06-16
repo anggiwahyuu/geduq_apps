@@ -4,6 +4,7 @@ import 'dart:developer' as dev;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:geduq_apps/app/data/utils/json_helper.dart';
 import 'package:geduq_apps/app/globalwidgets/globalslidefrombutton.dart';
 import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_adab.dart';
 import 'package:geduq_apps/app/modules/gameplay/widgets/insert_materi/materi_doa.dart';
@@ -142,7 +143,7 @@ class GameplayController extends GetxController {
   late int randomPickArtiAyat;
 
   Future<void> readArtiAyatJson() async {
-    final response = await rootBundle.loadString("assets/json/arti_dari_ayat.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonArtiDariAyat);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
@@ -171,7 +172,7 @@ class GameplayController extends GetxController {
   late int randomPickSambungAyat;
 
   Future<void> readSambungAyatJson() async {
-    final response = await rootBundle.loadString("assets/json/sambung_ayat.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonSambungAyat);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
@@ -200,7 +201,7 @@ class GameplayController extends GetxController {
   late int randomPickSusunAyat;
 
   Future<void> readSusunAyatJson() async {
-    final response = await rootBundle.loadString("assets/json/susun_ayat.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonSusunAyat);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
@@ -240,7 +241,7 @@ class GameplayController extends GetxController {
   late int randomPickTebakArti;
 
   Future<void> readTebakArtiJson() async {
-    final response = await rootBundle.loadString("assets/json/arti_nama_surat.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonArtiNamaSurat);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
@@ -270,7 +271,7 @@ class GameplayController extends GetxController {
   late int randomPickTebakSurah;
 
   Future<void> readTebakSurahJson() async {
-    final response = await rootBundle.loadString("assets/json/nama_surat_dari_ayat.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonNamaSuratDariAyat);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
@@ -306,7 +307,7 @@ class GameplayController extends GetxController {
   late int randomPickHikmah;
 
   Future<void> readMateriJson() async {
-    final response = await rootBundle.loadString("assets/json/materi.json");
+    final response = await rootBundle.loadString(JsonHelper.jsonMateri);
     final encoded = utf8.encode(response);
     final decoded = utf8.decode(encoded);
     final data = await json.decode(decoded);
