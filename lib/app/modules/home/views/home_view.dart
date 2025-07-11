@@ -87,6 +87,28 @@ class HomeView extends GetView<HomeController> {
                                   height: 18.w,
                                   child: InkWell(
                                     onTap: () {
+                                      Get.toNamed(Routes.ABOUT);
+                                    },
+                                    child: const Center(
+                                      child: Text(
+                                        "Tentang",
+                                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 1.w,
+                              ),
+                              Card(
+                                color: const Color.fromARGB(255, 132, 36, 12),
+                                elevation: 5,
+                                child: SizedBox(
+                                  width: 1.sh * 0.55,
+                                  height: 18.w,
+                                  child: InkWell(
+                                    onTap: () {
                                       audio.pauseBackgroundSound();
                                       _.setIsCanPauseBackgroundAudio(true);
                                       Get.toNamed(Routes.MATERI);
@@ -118,28 +140,6 @@ class HomeView extends GetView<HomeController> {
                                     child: const Center(
                                       child: Text(
                                         "Permainan",
-                                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              SizedBox(
-                                height: 1.w,
-                              ),
-                              Card(
-                                color: const Color.fromARGB(255, 132, 36, 12),
-                                elevation: 5,
-                                child: SizedBox(
-                                  width: 1.sh * 0.55,
-                                  height: 18.w,
-                                  child: InkWell(
-                                    onTap: () {
-                                      Get.toNamed(Routes.ABOUT);
-                                    },
-                                    child: const Center(
-                                      child: Text(
-                                        "Tentang",
                                         style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                                       ),
                                     ),
