@@ -176,7 +176,7 @@ class HomeView extends GetView<HomeController> {
                   ),
                   Positioned(
                     right: 100.w,
-                    bottom: 52.w,
+                    bottom: 30.w,
                     child: IconButton(
                       onPressed: () {
                         GlobalSlideFromBottomDialog.show(context: context, child: TutorialGameplay());
