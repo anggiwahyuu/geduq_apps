@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class SplashScreenController extends GetxController {
   int step = 0;
 
-  addStep() async {
+  Future<void> addStep() async {
     await Future.delayed(const Duration(seconds: 3)).then((value) {
       step++;
       update();

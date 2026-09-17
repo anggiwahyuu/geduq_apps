@@ -16,7 +16,7 @@ import 'package:get/get.dart';
 class GameplayController extends GetxController {
   final HomeController _homeCtrl = Get.find();
 
-  setIsCanPauseBackgroundAudio(bool value) {
+  void setIsCanPauseBackgroundAudio(bool value) {
     _homeCtrl.setIsCanPauseBackgroundAudio(value);
   }
 
@@ -24,17 +24,17 @@ class GameplayController extends GetxController {
 
   List<int> levelCorrect = [];
 
-  setLevelDone(int level) {
+  void setLevelDone(int level) {
     levelDone.add(level);
     update();
   }
 
-  setLevelCorrect(int level) {
+  void setLevelCorrect(int level) {
     levelCorrect.add(level);
     update();
   }
 
-  resetGameplayConfig() {
+  void resetGameplayConfig() {
     _homeCtrl.resetAll();
     update();
   }
@@ -47,17 +47,17 @@ class GameplayController extends GetxController {
   int totalTimePreTest = 0;
   int score = 0;
 
-  setCharacter() {
+  void setCharacter() {
     character = _homeCtrl.character;
     update();
   }
 
-  setCurrentUsername() {
+  void setCurrentUsername() {
     currentUsername = _homeCtrl.currentUsername;
     update();
   }
 
-  addOrReduceScore({required bool isAdd, required int value}) {
+  void addOrReduceScore({required bool isAdd, required int value}) {
     if (isAdd) {
       score += value;
     } else {
@@ -66,7 +66,7 @@ class GameplayController extends GetxController {
     update();
   }
 
-  addOrReduceLifePoint({required bool isAdd}) {
+  void addOrReduceLifePoint({required bool isAdd}) {
     if (isAdd) {
       lifePoint++;
     } else {
@@ -75,12 +75,12 @@ class GameplayController extends GetxController {
     update();
   }
 
-  setTimer(int value) {
+  void setTimer(int value) {
     totalTimePreTest += value;
     update();
   }
 
-  setAddCurrentLevel() {
+  void setAddCurrentLevel() {
     currentLevel++;
 
     if (currentLevel != 1 && currentLevel % 2 != 0 && currentLevel <= 10) {
@@ -91,7 +91,7 @@ class GameplayController extends GetxController {
     }
   }
 
-  resetAll() {
+  void resetAll() {
     userId = (-1);
     character = "";
     currentUsername = "";
@@ -108,31 +108,31 @@ class GameplayController extends GetxController {
   List stageTebakSurahDone = [];
   List stageTebakArtiAyatDone = [];
 
-  addStageSambungAyatDone(int level) {
+  void addStageSambungAyatDone(int level) {
     stageSambungAyatDone.add(level);
     dev.log("Added to Sambung Ayat Done");
     update();
   }
 
-  addStageSusunAyatDone(int level) {
+  void addStageSusunAyatDone(int level) {
     stageSusunAyatDone.add(level);
     dev.log("Added to Susun Ayat Done");
     update();
   }
 
-  addStageTebakArtiDone(int level) {
+  void addStageTebakArtiDone(int level) {
     stageTebakArtiDone.add(level);
     dev.log("Added to Tebak Arti Done");
     update();
   }
 
-  addStageTebakSurahDone(int level) {
+  void addStageTebakSurahDone(int level) {
     stageTebakSurahDone.add(level);
     dev.log("Added to Tebak Surah Done");
     update();
   }
 
-  addStageTebakArtiAyatDone(int level) {
+  void addStageTebakArtiAyatDone(int level) {
     stageTebakArtiAyatDone.add(level);
     dev.log("Added to Tebak Arti Ayat Done");
     update();
@@ -153,7 +153,7 @@ class GameplayController extends GetxController {
     setRandomPickArtiAyat();
   }
 
-  setRandomPickArtiAyat() {
+  void setRandomPickArtiAyat() {
     randomPickArtiAyat = Random().nextInt(itemsArtiAyat.length);
 
     while (stageTebakArtiAyatDone.contains(randomPickArtiAyat)) {
@@ -182,7 +182,7 @@ class GameplayController extends GetxController {
     setRandomPickSambungAyat();
   }
 
-  setRandomPickSambungAyat() {
+  void setRandomPickSambungAyat() {
     randomPickSambungAyat = Random().nextInt(itemsSambungAyat.length);
 
     while (stageSambungAyatDone.contains(randomPickSambungAyat)) {
@@ -212,7 +212,7 @@ class GameplayController extends GetxController {
     setRandomPickSusunAyat();
   }
 
-  setRandomPickSusunAyat() {
+  void setRandomPickSusunAyat() {
     randomPickSusunAyat = Random().nextInt(itemsSusunAyat.length);
 
     while (stageSusunAyatDone.contains(randomPickSusunAyat)) {
@@ -226,12 +226,12 @@ class GameplayController extends GetxController {
     update();
   }
 
-  setRemoveOptionSusunAyat(int index) {
+  void setRemoveOptionSusunAyat(int index) {
     optionSusunAyat.removeAt(index);
     update();
   }
 
-  setAddOptionSusunAyat(String value) {
+  void setAddOptionSusunAyat(String value) {
     optionSusunAyat.add(value);
     update();
   }
@@ -252,7 +252,7 @@ class GameplayController extends GetxController {
     setRandomPickTebakArti();
   }
 
-  setRandomPickTebakArti() {
+  void setRandomPickTebakArti() {
     randomPickTebakArti = Random().nextInt(itemsTebakArti.length);
 
     while (stageTebakArtiDone.contains(randomPickTebakArti)) {
@@ -282,7 +282,7 @@ class GameplayController extends GetxController {
     setRandomPickTebakSurah();
   }
 
-  setRandomPickTebakSurah() {
+  void setRandomPickTebakSurah() {
     randomPickTebakSurah = Random().nextInt(itemsTebakSurah.length);
 
     while (stageTebakSurahDone.contains(randomPickTebakSurah)) {
@@ -336,7 +336,7 @@ class GameplayController extends GetxController {
 
   bool materiVisibility = false;
 
-  setMateriVisibility(bool value) {
+  void setMateriVisibility(bool value) {
     materiVisibility = value;
     update();
   }
@@ -350,12 +350,12 @@ class GameplayController extends GetxController {
 
   int randomMateri = 0;
 
-  setRandomMateri() {
+  void setRandomMateri() {
     randomMateri = Random().nextInt(materiSection.length);
     update();
   }
 
-  setInsertMateriShow(BuildContext context) {
+  void setInsertMateriShow(BuildContext context) {
     if (materiVisibility == true) {
       if (context.mounted) {
         GlobalSlideFromBottomDialog.show(context: context, child: materiSection[randomMateri]);

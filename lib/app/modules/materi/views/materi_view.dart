@@ -55,34 +55,36 @@ class MateriView extends GetView<MateriController> {
                   child: SizedBox(
                     width: 250.w,
                     height: 180.h,
-                    child: SingleChildScrollView(
-                      child: Wrap(
-                        alignment: WrapAlignment.center,
-                        spacing: 5.0.w,
-                        runSpacing: 5.0.w,
-                        children: List.generate(_.pagesMateri.length, (index) {
-                          return InkWell(
-                            child: Container(
-                              width: 50.w,
-                              height: 35.w,
-                              decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                      image: _.materiOpened.contains(_.pagesMateri[index])
-                                          ? const AssetImage(ImageHelper.imgMateriOpenedPng)
-                                          : const AssetImage(ImageHelper.imgMateriClosePng),
-                                      fit: BoxFit.fill)),
-                              child: Center(
-                                child: Text(
-                                  "${index + 1}",
-                                  style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18.sp),
+                    child: Scrollbar(
+                      child: SingleChildScrollView(
+                        child: Wrap(
+                          alignment: WrapAlignment.center,
+                          spacing: 5.0.w,
+                          runSpacing: 5.0.w,
+                          children: List.generate(_.pagesMateri.length, (index) {
+                            return InkWell(
+                              child: Container(
+                                width: 50.w,
+                                height: 35.w,
+                                decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                        image: _.materiOpened.contains(_.pagesMateri[index])
+                                            ? const AssetImage(ImageHelper.imgMateriOpenedPng)
+                                            : const AssetImage(ImageHelper.imgMateriClosePng),
+                                        fit: BoxFit.fill)),
+                                child: Center(
+                                  child: Text(
+                                    "${index + 1}",
+                                    style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18.sp),
+                                  ),
                                 ),
                               ),
-                            ),
-                            onTap: () {
-                              Get.to(() => _.pagesMateri[index]);
-                            },
-                          );
-                        }),
+                              onTap: () {
+                                Get.to(() => _.pagesMateri[index]);
+                              },
+                            );
+                          }),
+                        ),
                       ),
                     ),
                   ),

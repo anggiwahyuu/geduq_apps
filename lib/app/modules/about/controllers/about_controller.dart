@@ -6,22 +6,22 @@ class AboutController extends GetxController {
   bool visible3 = false;
   bool visible4 = false;
 
-  setVisible() {
+  void setVisible() {
     visible = !visible;
     update();
   }
 
-  setVisible2() {
+  void setVisible2() {
     visible2 = !visible2;
     update();
   }
 
-  setVisible3() {
+  void setVisible3() {
     visible3 = !visible3;
     update();
   }
 
-  setVisible4() {
+  void setVisible4() {
     visible4 = !visible4;
     update();
   }

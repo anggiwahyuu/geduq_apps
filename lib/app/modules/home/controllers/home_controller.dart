@@ -6,7 +6,7 @@ class HomeController extends GetxController {
 
   bool isCanPauseBackgroundAudio = false;
 
-  setIsCanPauseBackgroundAudio(bool value) {
+  void setIsCanPauseBackgroundAudio(bool value) {
     isCanPauseBackgroundAudio = value;
     update();
   }
@@ -14,17 +14,17 @@ class HomeController extends GetxController {
   String character = "";
   String currentUsername = "";
 
-  setCharacter(String value) {
+  void setCharacter(String value) {
     character = value;
     update();
   }
 
-  setCurrentUsername(String value) {
+  void setCurrentUsername(String value) {
     currentUsername = value;
     update();
   }
 
-  resetAll() {
+  void resetAll() {
     character = "";
     currentUsername = "";
     username.clear();

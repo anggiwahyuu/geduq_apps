@@ -1,33 +1,28 @@
 import 'package:get/get.dart';
 
 class SusunAyatController extends GetxController {
-  @override
-  void onInit() {
-    super.onInit();
-  }
-
   int? selectedIndex;
 
-  setSelectedIndex(int index) {
+  void setSelectedIndex(int index) {
     selectedIndex = index;
     update();
   }
 
   List<String> answer = [];
 
-  setAnswer(String value) {
+  void setAnswer(String value) {
     answer.insert(0, value);
     update();
   }
 
-  deleteAnswer(int index) {
+  void deleteAnswer(int index) {
     answer.removeAt(index);
     update();
   }
 
   int correctAnswer = 0;
 
-  setAddOrReduceCorrectAnswer({required bool isAdd}) {
+  void setAddOrReduceCorrectAnswer({required bool isAdd}) {
     if (isAdd) {
       correctAnswer++;
     } else {
@@ -38,28 +33,28 @@ class SusunAyatController extends GetxController {
 
   bool isChoose = false;
 
-  setIsChoose(bool value) {
+  void setIsChoose(bool value) {
     isChoose = value;
     update();
   }
 
   String expressionCharaImg = "";
 
-  setExpressionCharaImg(String value) {
+  void setExpressionCharaImg(String value) {
     expressionCharaImg = value;
     update();
   }
 
   bool isCorrect = false;
 
-  setIsCorrect(bool value) {
+  void setIsCorrect(bool value) {
     isCorrect = value;
     update();
   }
 
   bool isAnswer = false;
 
-  setIsAnswer(bool value) {
+  void setIsAnswer(bool value) {
     isAnswer = value;
     update();
   }

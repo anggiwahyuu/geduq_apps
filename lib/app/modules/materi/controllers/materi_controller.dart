@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 class MateriController extends GetxController {
   final HomeController _homeCtrl = Get.find();
 
-  setIsCanPauseBackgroundAudio(bool value) {
+  void setIsCanPauseBackgroundAudio(bool value) {
     _homeCtrl.setIsCanPauseBackgroundAudio(value);
   }
 
@@ -40,7 +40,7 @@ class MateriController extends GetxController {
     update();
   }
 
-  addMateriOpened(int index) {
+  void addMateriOpened(int index) {
     materiOpened.add(pagesMateri[index]);
     update();
   }

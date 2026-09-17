@@ -25,12 +25,13 @@ class GamePreparation extends StatelessWidget {
                 Container(
                   padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 5.w),
                   width: 1.sw * 0.5,
-                  height: 155.w,
+                  constraints: BoxConstraints(minHeight: 155.w),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10.w),
                   ),
                   child: Column(
+                    mainAxisSize: MainAxisSize.min,
                     children: [
                       Align(
                         alignment: Alignment.topRight,

@@ -23,9 +23,45 @@ class GameplaySambungAyat extends StatelessWidget {
         return GetBuilder<TimerController>(
           init: TimerController(),
           builder: (timer) {
-            return Scaffold(
-              resizeToAvoidBottomInset: false,
-              body: GetBuilder<AudioController>(builder: (audio) {
+            return PopScope(
+              canPop: false,
+              onPopInvokedWithResult: (didPop, result) {
+                if (didPop) return;
+
+                AlertDialog alert = AlertDialog(
+                  title: const Text(
+                    "Peringatan",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  content: const SizedBox(
+                    child: Text("Yakin ingin keluar dari soal ini? Progress pada level ini akan hilang."),
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Get.back(),
+                      child: const Text(
+                        "Batal",
+                        style: TextStyle(color: Colors.red),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {
+                        Get.back();
+                        Get.back();
+                      },
+                      child: const Text(
+                        "Ya",
+                        style: TextStyle(color: Colors.green),
+                      ),
+                    ),
+                  ],
+                );
+
+                showDialog(context: context, builder: (context) => alert);
+              },
+              child: Scaffold(
+                resizeToAvoidBottomInset: false,
+                body: GetBuilder<AudioController>(builder: (audio) {
                 return GetBuilder<GameplayController>(builder: (main) {
                   if (main.lifePoint <= 0) {
                     return Container(
@@ -328,6 +364,7 @@ class GameplaySambungAyat extends StatelessWidget {
                   }
                 });
               }),
+              ),
             );
           },
         );

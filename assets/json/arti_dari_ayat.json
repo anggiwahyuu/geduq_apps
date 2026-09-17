@@ -29,7 +29,7 @@
         {
             "id": 2,
             "naration": "Manakah terjemahan yang tepat untuk ayat berikut.",
-            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَࣖ",
+            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَ",
             "sound": "sounds/arti_ayat/Al-Ma'un_7.mp3",
             "options": [
                 "Dan tidak mendorong memberi makan orang miskin",
@@ -94,7 +94,7 @@
         {
             "id": 7,
             "naration": "Apa terjemahan yang tepat untuk kata di bawah ini.",
-            "question": "الْمَاعُوْنَࣖ",
+            "question": "الْمَاعُوْنَ",
             "sound": "",
             "options": [
                 "Memberikan bantuan",
@@ -172,7 +172,7 @@
         {
             "id": 13,
             "naration": "Di bawah ini termasuk potongan ayat surat..",
-            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَࣖ",
+            "question": "وَيَمْنَعُوْنَ الْمَاعُوْنَ",
             "sound": "sounds/arti_ayat/Al-Ma'un_7.mp3",
             "options": [
                 "Al-Alaq",

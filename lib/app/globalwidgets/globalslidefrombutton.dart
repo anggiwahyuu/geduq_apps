@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GlobalSlideFromBottomDialog {
-  static show({required BuildContext context, required Widget child}) async {
+  static Future<void> show({required BuildContext context, required Widget child}) async {
     await Future.delayed(Duration.zero).then((value) {
       if (context.mounted) {
         showGeneralDialog(

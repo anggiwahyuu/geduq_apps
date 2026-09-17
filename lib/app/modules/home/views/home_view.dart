@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exit_app/flutter_exit_app.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geduq_apps/app/data/controller/audio_controllers.dart';
 import 'package:geduq_apps/app/data/controller/tutorial_storage.dart';
@@ -46,7 +46,7 @@ class HomeView extends GetView<HomeController> {
                   ),
                   TextButton(
                     onPressed: () {
-                      FlutterExitApp.exitApp();
+                      SystemNavigator.pop();
                     },
                     child: const Text(
                       "Ya",
